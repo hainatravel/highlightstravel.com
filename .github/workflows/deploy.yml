@@ -1,0 +1,38 @@
+name: 🚀 Deploy JH
+
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ main ]
+
+jobs:
+  gh-win-us-deploy:
+    name: 🎉 Deploy highlightstravel.com to US
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.US_FTP_SERVER }}
+        username: ${{ secrets.US_FTP_USER }}
+        password: ${{ secrets.US_FTP_PASSWORD }}
+        port: ${{ secrets.US_FTP_PORT }}
+        local-dir: ./
+        server-dir: /origin-www.highlightstravel.com/
+        # dry-run: true
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/aspbackup/**
+          **/pic/**
+          **/videos/**
+          **/web.config
+          **/.well-known/**
+          *.jpg
+          *.png
+          *.gif
+          .ftp-deploy-sync-state.json
