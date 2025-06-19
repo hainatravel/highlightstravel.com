@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:#f1f1f1;}
+#banner { display: block; position: relative; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin: 0; }
+h2 { font-style: Trebuchet MS; font-size:26px; margin: 0 0 35px;}
+a { text-decoration: none;}
+@media(max-width:750px) {
+#banner h1 { background: none !important; color:#555 !important; position:static !important; font-size:20px !important}		
+}
+#banner { display: block; position: relative; }
+#banner span { position: absolute; right: 10%; text-align: right; display: block; top: 25px; font-size: 38px; color: #fff; text-shadow: 2px 2px 2px #333; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin-bottom: 1px !important; }
+
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+
+.guideBlock { display: block; background:#fff; border-radius:4px; padding:40px; margin:30px 0 50px; position:relative; padding-left:280px;}
+.guideBlock.onRight { padding:40px 280px 40px 40px !important;}
+.guideBlock .guideName { font-size:35px;display: block; font-style:italic;}
+.guideBlock .guideName.green { color:#247258;}
+.guideBlock .guideName.blue { color:#3b25ab;}
+.guideBlock .guideName.orange { color:#ed8a20;}
+.guideBlock .guideName.pink { color:#93477a;}
+.guideBlock .guideTitle { font-size:20px; display: block; margin:0 0 20px; color:#999; }
+.guide1 { background:url(https://data.asiahighlights.com/image/guides/guide-1.png) no-repeat; display: block; width:234px; height:316px; position:absolute; left:0; bottom:0;}
+.guide2 { background:url(https://data.asiahighlights.com/image/guides/guide-2.png) no-repeat; display: block; width:292px; height:323px; position:absolute; right:0; bottom:0;}
+.guide3 { background:url(https://data.asiahighlights.com/image/guides/guide-3.png) no-repeat; display: block; width:229px; height:326px; position:absolute; left:0; bottom:0;}
+.guide4 { background:url(https://data.asiahighlights.com/image/guides/guide-4.png) no-repeat; display: block; width:274px; height:327px; position:absolute; right:0; bottom:0;}
+
+.cars { display: block; margin-bottom:40px;}
+.cars img { margin-bottom:15px;}
+/* side nav */
+.sideNav { display: block; border-top:3px solid #a31022;}
+.sideNav li { border-bottom:1px solid #d1d1d1; background:url(https://data.asiahighlights.com/pic/square-gray-8x8.png) no-repeat 10px center; line-height:20px; padding:10px 0 10px 30px; font-size:14px;}

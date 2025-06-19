@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.Top { background:url(https://data.asiahighlights.com/image/top-bg.jpg) no-repeat; height:720px; padding-top: 55px;}
+.TopList h1 { color:#fff; text-shadow: 1px 1px 2px #333; font-size:35px; border-bottom:none; text-align:center; margin-bottom: 50px;}
+
+.TopList .List {  background: #FFF; margin-bottom: 25px; padding:5px; font-size:16px; color:#000; border-radius: 4px 4px 4px 4px;}
+.TopList .List img { border-radius: 4px 4px 0 0; margin-bottom:3px;}
+.TopList .List:hover { background:#d1d1d1; cursor:pointer}
+.TopTitle { font-size:16px; color:#d3d3d3;}
+.DetailInfo { background:#f1f1f1; padding:40px 0 20px 0;}
+.Navi  { font-size:11px; margin-bottom:15px;}
+.Navi img { display: none;}
+.Navi a { background:url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right:10px; margin-right:15px;}
+.Navi .Page{ color: #a31022; }
+.CruiseTitle { color:#fff; background:#a31022; width:100%; display:block; border-radius: 4px 4px 0 0; padding:10px 0 10px 15px; font-family:Trebuchet MS; font-size:22px; }
+
+table.CruiseTable { border-left:1px solid #e0e0e0; margin-bottom:30px;}
+table.CruiseTable th { background:#9d9d9d; color:#fff; font-size:15px; text-shadow: 1px 1px 2px #333; padding:5px 10px; font-weight: normal;}
+table.CruiseTable td { font-size:14px; padding:10px 0 10px 10px; }
+table.CruiseTable tr.BgWhite { background-color:#fff; }
+table.CruiseTable tr.BgWhite td.wishlist, table.CruiseTable tr.BgGrey td.wishlist { text-align:center;}
+td.wishlist img,.arrowup{cursor: pointer;}
+table.CruiseTable tr.BgWhiteBottom td{ background-color:#fff; border-bottom:1px solid #e0e0e0; font-size:18px; font-family:Trebuchet MS;}
+table.CruiseTable tr.BgGrey { background:#f7f6f6; }
+table.CruiseTable tr.BgGrey td.date input, table.CruiseTable tr.BgWhite td.date input  { border: 1px solid #d1d1d1; background: url(https://data.asiahighlights.com/pic/calendar.png) no-repeat 98% 6px #fff; padding: 5px 5px;  width: 100%; border-radius: 4px; color: #555; font-family:  'Open Sans', sans-serif;  font-size:14px; }
+table.CruiseTable tr.BgGreyBottom { background:#f7f6f6; border-bottom:1px solid #e0e0e0;}
+table.CruiseTable tr.BgBottom td{ background:#fff; border-bottom:1px solid #e0e0e0; font-size:18px; padding:25px 10px;}
+table.CruiseTable tr.DetailInfo td textarea { border: 1px solid #acacac; background: #fff; padding: 10px; height: 150px;  border-radius: 4px; font-family:  'Open Sans', sans-serif; color: #555; font-size: 12px; top:15px; }
+table.CruiseTable tr.BgBottom td.TravelerNumber select { text-align: center; border: 1px solid #acacac; background: #fff; border-radius: 4px; font-family:  'Open Sans', sans-serif; padding: 2px 0; color: #acacac; margin-right: 15px; font-size: 14px;; width:20%; margin-top:10px; height:40px;}
+table.CruiseTable tr.BgBottom td.TravelerNumber {font-family:Trebuchet MS;} 
+.traveldetail { color:#a31022; font-size:13px; margin-left:15px;}
+table.CruiseTable tr.BgGreyCenter td{ background:#f7f6f6; border-bottom:1px solid #e0e0e0; text-align:center;}
+table.CruiseTable td.TourName { color:#1f60a3; cursor: pointer;}
+table.CruiseTable td .Price { color:#a31022;}
+table.CruiseTable tr.BottomGrey td{ background:#f7f6f6; padding: 20px; } 
+table.CruiseTable tr.PriceBottom td{ background:#f7f6f6; text-align:center; font-size:18px;border-bottom:1px solid #e0e0e0; font-family:Trebuchet MS;  }
+.TotalPrice { color:#a31022; font-size:35px;}
+table.CruiseTable tr.BottomGrey td .arrowup { float:right;}
+table.CruiseTable td .arrivedate { color:#a8a8a8;}
+table.CruiseTable tr.Button td{ background:#d3d3d3; text-align:center; padding:15px 0;}
+.bookingbutton { color:#fff; background:#a31022; border-radius: 4px 4px 4px 4px; padding:8px 55px; font-size:20px;}
+tr.DetailInfo td { background:#fff;  font-size:18px; padding:25px 10px;}
+tr.DetailInfo td .requirement { display:block; font-family:Trebuchet MS; }
+.personalInfo { margin-top:10px; margin-bottom:10px; }
+.personalInfo input {height:40px; } 
+.personalInfo select { border: none; background: #eee; margin: -1px -5px 0 -10px; color: #0c6197; height:17px; }
+/* csk */
+table.CruiseTable tr.Son_tr {display: none; height: 0px;}
+.del {
+    background: #555 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    height: 20px;
+    line-height: 1;
+    padding: 3px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 18px; margin-right:7px;
+}
+.allPrice{background: #fff;}
+a{text-decoration: none;}
+.otherPriceSpan{padding: 3px 11px;}
+/*.table-responsive{overflow: visible;}*//*之前的是overflow-x:auto;,为了让价格ul显示在最上层*/
+/* csk */
+
+@media(max-width:750px) {
+.Top { background:#f1f1f1 !important;}	
+.TopList h1 { margin-top:-40px; font-size:20px !important; color:#555; text-shadow: none !important;}
+.TopList .List { border: 1px solid #d4d4d4;}
+.TopList .List img { width:100%;}
+table.CruiseTable tr.BgBottom td.TravelerNumber select { width:40% !important}
+table.CruiseTable tr.DetailInfo td textarea { margin-left:0 !important;}
+}
+.twitter-typeahead { display: block !important;}
+.twitter-typeahead input { border-radius:0 4px 4px 0!important;}
+@media(min-width:1024px) {
+	
+}

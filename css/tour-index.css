@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+#banner { display: block; position: relative; }
+#banner span { position: absolute; right: 10%; text-align: right; display: block; top: 25px; font-size: 38px; color: #fff; text-shadow: 2px 2px 2px #333;  }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin-bottom: 1px !important; }
+.menu a.active { color: #a31022; border-bottom: 4px solid #a31022; padding-bottom: 8px; }
+.aboutAH { display: block; background: #f1f1f1;/* padding: 50px 0;*/ text-align: center; }
+.aboutAH img { max-width: 100%; }
+h1 { font-size: 30px; border-bottom: none; margin: 0 0 30px; color: #545454; }
+h2 { font-size: 30px; color: #545454; margin-bottom: 30px; text-align: center; }
+@media(max-width:768px) {
+#banner span { position: relative !important; margin: 15px 10px !important; font-size: 20px !important; color: #333 !important; text-shadow: none !important; text-align: center !important; top: auto !important; right: auto !important }
+h2 em { display: none; }
+.topTours { padding: 30px 0 !important; }
+.topTours .tourInfo { margin-bottom: 20px; }
+.articleFirst { margin-bottom: 20px; }
+.popularArticle .articleRight { margin-bottom: 20px !important; }
+.whyAH { padding: 20px 0 0 !important; }
+.whyAH .whyus ul { margin: 0 -15px !important; }
+.whyAH .whyus li { background-size: 20% !important; padding: 10px 0 10px 70px !important; font-size: 15px !important; }
+}
+@media(min-width:1024px) {
+.tourInfo { height:280px;}	
+}
+.aboutAH p, .topTours p { margin-bottom: 35px !important; }
+.topTours { display: block; padding: 30px 0 50px; }
+.topTours img { border-radius: 4px 4px 0 0; }
+.tourBlock { display: block; border: 1px solid #d1d1d1; overflow: hidden; margin-bottom: 50px; }
+.tourInfo { padding: 15px; border-radius: 0 0 4px 4px; text-align: left !important; position:relative; overflow:hidden; }
+.tourInfo h3 { font-size: 16px; margin: 5px 0 10px; }
+.tourInfo h3 a { text-decoration: none;}
+.tourInfo h3 a:hover { text-decoration: underline;}
+.tourInfo .destinations { color: #777; display: block; height: 33px; margin: 10px 0 15px; }
+.priceBlock { display: block; margin: 15px 0 20px; vertical-align: top; }
+.priceBlock em { font-style: normal; display: inline-block;  margin-right: 5px; font-size:18px; }
+.priceBlock strong { color: #a31022; font-size: 18px; font-weight: normal; }
+.priceBlock strong:before { content: "$"; display: inline-block;}
+.tourInfo .viewDetail { background: #fff; display: block; padding: 10px 15px; text-align: center; width: 100% !important; text-align: center; border-top:1px solid #d1d1d1; position:absolute; left:0; bottom:0; }
+.tourInfo .viewDetail a { color: #a31022; font-size: 16px; text-decoration: none; background: url(https://data.asiahighlights.com/pic/red-arrow.png) no-repeat right; padding-right: 15px; }
+.tourInfo .viewDetail a:hover { text-decoration: underline;}
+.showMore { display: block; text-align:center;}
+.showMore a { text-decoration: none; font-size:22px; background:url(https://data.asiahighlights.com/pic/big-arrow-down.png) no-repeat center 40px; height:80px; display: block;}
+
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+
+/* page footer tailor made block */
+.footerTailor { background: url(https://data.asiahighlights.com/image/tour/bg-tailor-pagoda.jpg) no-repeat center; display: block; padding: 30px 0 40px; margin: 25px 0 0; overflow: hidden; color: #fff; }
+.footerTailor .textBlock { display: block; font-size: 20px; }
+.footerTailor .textBlock span { display: block; border:2px solid #fff; border-radius: 4px; letter-spacing: 0.03em; margin: 30px 0 10px;width: 260px; font-size: 18px; text-align:center }
+.footerTailor .textBlock span:hover { background:#a31022;}
+.footerTailor .textBlock span a { color: #fff; text-decoration: none; display: block; padding:5px 5px 8px; }
+.footerTailor .textBlock span .fa { font-size:150%; margin-left:5px;}
+@media(max-width:750px) {
+.footerTailor { background: #8b4b33 !important;  padding-bottom:15px !important}
+.textBlock { width: 100% !important; float: none !important; font-size: 16px !important; margin-left: 0 !important; text-align:center; }
+.textBlock span {margin: 30px auto !important; }
+.textBlock span a { font-size: 16px !important;}
+}
+
+
+/* 2018-1-24 */
+.topTailor { border:d9d9d9; background:url(https://data.asiahighlights.com/pic/albee.png) no-repeat 30px center #f1f1f1; border-radius:4px; display: block; padding:20px 20px 20px 165px; margin-bottom:25px;}
+.topTailor .tailorTitle { display: block; font-size:22px; margin: 0 0 15px;}
+.topTailor .beginNow { display: block; background:#a31022; border-radius:4px; text-align:center; border:2px solid #f1f1f1;}
+.topTailor .beginNow:hover { background: none; border:2px solid #a31022;}
+.topTailor .beginNow a { display: block; padding:10px; color:#fff; font-size:17px; text-decoration: none;}
+.topTailor .beginNow a:hover { color:#a31022;}
+.topTailor .beginNow .fa { font-size:130%; margin-left:5px;}
+.destinationCover { display: block; background:#f1f1f1; margin:25px 0; padding:25px 0 50px;}
+.destinationCover h2 { text-align:center;}
+.destinationCover .areaBlock { display: block; position:relative;}
+.destinationCover .areaBlock a { display: block; width:100%; height:100%; background:rgba(0,0,0,.5); position:absolute; top:0; left:0; font-size:33px; text-align:center; color:#fff; text-decoration: none; padding-top:47%; text-shadow:0 0 3px #000}
+.destinationCover .areaBlock a:hover { background: none;transition:ease-in-out 0.8s; }
+.featuredTrips { display: block; margin:25px 0;}
+.featuredTrips h2 { text-align:center;}
+.moreAsia { display: block; background:#f1f1f1; margin:25px 0; padding:25px 0 50px;}
+.moreAsia h2 { text-align:center;}
+.moreAsia .articleInfo { background:#fff; border-radius: 0 0 4px 4px; padding:15px 20px;}
+.moreAsia .articleInfo .articleTitle { display: block; font-size:18px; margin-bottom:15px;}
+.moreAsia .articleInfo .viewMore { border-top:1px solid #d1d1d1; display: block; text-align:center; padding-top:10px; margin-top:10px;}
+.moreAsia .articleInfo .viewMore:hover a { text-decoration: underline;}
+.moreAsia .articleInfo .viewMore a { text-decoration: none; font-size:16px; color:#a31022; background:url(https://data.asiahighlights.com/pic/red-arrow.png) no-repeat right 5px; padding-right:20px;}
+@media(max-width:750px) {
+.tourBlock img { width:100%;}
+.destinationCover .areaBlock { margin-bottom:35px;}
+.destinationCover .areaBlock img { width:100%}
+.priceBlock { margin-bottom:50px;}
+.moreAsia .articleInfo { margin-bottom:35px;}	
+.moreAsia img { width:100%;}
+}

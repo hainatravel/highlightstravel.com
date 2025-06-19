@@ -1,0 +1,1 @@
+<amp-analytics type="googleanalytics"><script type="application/json">{"vars": {"account": "UA-75142970-1"},"triggers": { "default pageview": {"on": "visible", "request": "pageview","vars": {"title": "<?php echo $detail->ic_seo_title; ?>"}}}}</script></amp-analytics>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+#inquiryForm { background:#f1f1f1; padding-top:50px; padding-bottom: 30px}
+h1 { border-bottom: none !important; margin-bottom:20px; height:33px; font-size: 24px}
+.pgHead { margin-top:40px;}
+.contactUs { border:1px solid #d9d9d9; box-shadow:0 0 2px #d9d9d9; border-radius:4px; padding:20px; margin-bottom:30px; background:#fff; position:relative}
+.contactUs .arrow { background:url(/pic/arrow-25x40.png) no-repeat; display: block; width:25px; height:40px; position:absolute; left:-25px; top:30px;}
+.contactUs .introText { font-size:18px; border-bottom:2px dashed #d1d1d1; display: block; padding: 0 10px 25px; margin-bottom:35px;}
+.contactUs input { border:1px solid #d1d1d1; font-size:16px; padding:8px 10px; display: block; width:100%; border-radius:4px; margin-bottom:30px;}
+.contactUs textarea { border:1px solid #d1d1d1; font-size:16px; padding:8px 10px; display: block; width:100%; border-radius:4px; margin-bottom:20px; height:150px;}
+input[type="button"] { background:#a31022; border: none; color:#fff; padding:10px; margin:30px 0 0;}
+.infoTitle {font-size: 20px}
+.basicInfo {margin-top: 68px;}
+.infoText {line-height: 1.7em; font-size: 14px;margin-top:10px}
+.infoBlock {margin-top: 20px; overflow: auto}
+.infoBlock img {width: 100%}
+.cutLine { height:1px;border:none;border-top:1px solid #d1d1d1; margin-top: 10px; margin-bottom: 10px}
+/* thank you */
+.thankyouHead { display: block; background:#a31022; border-radius:4px 4px 0 0; text-align:center; padding:35px 10px; color:#fff;}
+.thankyouHead  h1 { color:#fff !important; font-size:30px;}
+.thankyouHead span { font-size:20px;}
+.thankyouContent { background:#fff; border-radius:0 0 4px 4px; padding:35px 35px 0; margin-bottom:35px; display:block;}
+input:focus
+{ 
+border:1px solid #545454;
+outline: none
+}
+textarea:focus
+{border:1px solid #545454;
+    outline: none}
+.buttonLink:hover {border-radius: 20px}
+@media( max-width:768px) {
+.cutLine {margin-top: 15px; margin-bottom: 15px}
+.infoTitle {font-size:20px}
+.basicInfo {margin-top: 20px}
+.thankyouContent { padding:15px !important}	
+.pgSay { padding:20px !important}
+.pgSay .whatsapp strong { display: block;}
+}
+.pgSay { background:#f1f1f1; padding:20px 50px; border-radius:4px;font-size:20px; line-height:35px; margin-top:20px; position:relative}
+.pgSay .arrow { background:url(/pic/arrow-21x26.png) no-repeat; display: block; width:21px; height:26px; left:-21px; top:calc(50% - 13px); position:absolute;}
+.pgSay .whatsapp { display: block; background:url(/pic/whatsapp-icon.png) no-repeat left; padding-left:35px;}
+.pgSay .whatsapp strong { color:#a31022; font-size:26px; font-weight: normal;}
+.tips { display: block; margin:35px 20px; font-size:14px; line-height:25px; color:#545454 !important;}

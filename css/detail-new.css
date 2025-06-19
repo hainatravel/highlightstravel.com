@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+#banner { display: block; position: relative; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin: 0; }
+#banner h1.AboutUs { color: #fff; display: block; font-family: fontawesome; font-size: 30px; font-weight: normal; left: 0; top: -365px; line-height: 37px; position: absolute; text-align: left; width: 600px; background: none; border-bottom: none; }
+/*  tour detail new style */
+h2 { color: #333 !important; font-size: 23px !important; margin: 35px 0 30px ; display: block; }
+.tourMap { display: block; background:#f1f1f1; margin:50px 0; padding:0 0 50px;}
+.LFtimeTree{color: #a31022;font-size: 16px;font-weight: bold;}
+.LFtimeTree img{width: 22px;margin: 0 10px 5px 0}
+.tourIntro{font-size: 14px;line-height: 25px;}
+.tourMapZoom{text-align: center;font-size: 14px;font-style: italic;margin-top: 20px}
+.timetreeInfo{margin:0px 0 15px 0;font-size: 16px;line-height: 22px;}
+.photoAdsTable{width:100%;border-left:1px solid #c9c9c9;border-top:4px solid #c9c9c9}.photoAdsTableH{font-size:28px!important;text-align:center}.photoAdsTableH
+strong{font-weight:normal;color:#a31022}.photoAdsTableH
+em{display:block;font-size:24px}
+.tpReviews{margin-top: 35px;    text-align: center;}
+.tpReviews img{margin: 0 auto;margin-top: 15px}
+.tpReviewslink{margin-top: 10px;padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;}
+    .reviewDetail {
+        display: block;
+        font-style: italic;
+        color: #999;
+        font-size: 16px;
+        background: url(/pic/quote-left-s.png) no-repeat left 5px / 18px 14px;
+        padding-left: 25px;
+        margin-top: 20px;
+    }
+tr{border-right:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9}.photoAdsTable
+th{border-right:1px solid #c9c9c9;padding:5px 10px 5px 10px;font-size:16px;font-weight:300}.photoAdsTable
+td{font-size:16px;font-weight:300;border-right:1px solid #c9c9c9;padding:10px}
+.notice{font-size: 16px;line-height: 28px;margin-top: 20px}
+.reviewName{font-size: 24px;}
+.firstColumn{font-size: 20px;font-weight: normal;display: block;padding: 5px 5px 5px 0px}
+.photoAdsTable tr:nth-child(2n+1) td{background:#fff}.photoAdsTable tr:nth-child(2n) td{background:#f2f2f2}.photoAdsTable tr:nth-child(2n+1) th{background:#fff}.photoAdsTable tr:nth-child(2n) th{background:#f2f2f2}
+.whatIncluded { height: 100%; overflow: hidden; }
+.whatIncluded li { background: rgba(0, 0, 0, 0) url(/pic/red-mark.png) no-repeat scroll left 5px; line-height: 20px; margin-bottom: 10px; padding: 0 20px 0 30px; font-size:14px; }
+.tourHighlights ul { height: 100%; overflow: hidden; }
+.tourHighlights ul li { background: rgba(0, 0, 0, 0) url(/pic/square-red.gif) no-repeat scroll left 7px / 6px auto; line-height: 20px; margin-bottom: 15px; padding-left: 20px; font-size:16px; }
+.dayTrip { background:url(/pic/bg-ontour.png) no-repeat left top; padding:0 0 20px 60px; position: relative;}
+.dayTrip .closeAction { display: block; background:url(/pic/arrow-up-red.png) no-repeat; width:18px; height:10px; position:absolute; right:0; top:16px; cursor:pointer;}
+.dayTrip .openAction { display: block; background:url(/pic/arrow-down-red.png) no-repeat; width:18px; height:10px; position:absolute; right:0; top:16px;  cursor:pointer;}
+.dayTrip.flyTo {background:url(/pic/bg-fly.png) no-repeat left top !important}
+.dayTrip.ontourLast {background:url(/pic/ontour-last.png) no-repeat left top !important}
+.dayTrip h3 { font-size:16px; margin:0 0 20px; padding:10px 40px 0 0;}
+.dayTrip h3 strong { font-size:20px; margin-right:5px; color:#a31022; font-weight: normal;}
+.dayTrip .flyInfo { background:url(/pic/flight-icon.png) no-repeat left center; padding-left:25px; margin-bottom:10px; font-size:11px; color:#000; display: inline-block; margin-right:20px;}
+.dayTrip .vanInfo { background:url(/pic/car-icon.png) no-repeat left center; padding-left:25px; margin-bottom:10px; font-size:11px; color:#000; display: inline-block; margin-right:20px;}
+.dayTrip .mealInfo { background:url(/pic/dining.png) no-repeat left center; padding-left:25px; margin-bottom:10px; font-size:11px; color:#000; display: inline-block; margin-right:20px;background-size: 16px}
+.dayTrip .hotelInfo { background:url(/pic/hotel-icon.png) no-repeat left center; padding-left:25px; margin-bottom:10px; font-size:11px; color:#000; display: inline-block; margin-right:20px;}
+.dayTrip .return { background:url(/pic/round-trip-icon.png) no-repeat left center; padding-left:25px; margin-bottom:10px; font-size:11px; color:#000; display: inline-block;}
+.dayTrip h3.openAction{background: none;width: 100%;position: relative;top: 0;height: auto}
+.dayTrip h3.closeAction{background: none;width: 100%;position: relative;top: 0;height: auto}
+.itineraryPhoto { display: block; margin:15px 0 25px; color:#888; font-size:14px;}
+.itineraryPhoto img { margin-bottom:5px;}
+.hotelImage img { border-radius:4px; width:100%; height:125px; }
+.HotelInfo { border-bottom: 1px solid #d1d1d1; margin-bottom: 28px; padding-bottom: 30px; position: relative; }
+.HotelInfo .viewMore { display: block; position: absolute; bottom: 10px; right: 0; width: 100px; padding: 3px; background: url(/pic/white-arrow-s.png) no-repeat 80px center #a31022; text-align: center; border-radius: 4px; text-transform: uppercase; }
+.HotelInfo .viewMore a { color: #fff; text-decoration: none; }
+.HotelInfo .HotelName { color: #a31022; font-size: 16px; display: block; margin-bottom: 15px; background:url(/pic/location-icon.png) no-repeat left center; padding-left:20px; }
+.HotelInfo .HotelName strong { font-weight: normal; color:#333; margin-left:10px;}
+.HotelInfo li { background:url(/pic/square-gray-8x8.png) no-repeat left; padding-left:20px; line-height:20px; margin-bottom:8px; font-size:14px;}
+.tourTips li { background:url(/pic/red-square.png) no-repeat left 8px; padding-left:25px; line-height:25px; margin-bottom:20px; font-size:14px;}
+.tourTips li strong { display: block; margin-bottom:5px; font-weight: normal; color:#000; font-size:16px;}
+.guideCar { display: block; margin:50px 0; padding:50px 0; background:#f1f1f1; overflow: hidden;}
+.guideCar .guideInfo { width:48%; float: left; border-right:1px solid #d1d1d1; overflow: hidden; padding-right:40px;}
+.guideCar .guideInfo .guidePhoto { box-shadow:0 0 5px #999; padding:3px; background:#fff; float: left; display: block; width:199px; margin-top:10px;}
+.guideCar .guideInfo .guideSummary { float: right; display: block; width:285px; font-size:14px; line-height:23px;}
+.guideCar .carInfo { width:48%; float: right;}
+.guideCar .carInfo .carPhoto { box-shadow:0 0 5px #999; padding:3px; background:#fff; float: left; display: block; width:199px;  margin-top:10px;}
+.guideCar .carInfo .carSummary { float: right; display: block; width:325px; font-size:14px; line-height:23px;}
+.guideCar .guideInfo h2, .guideCar .carInfo h2 { margin-top:0 !important;}
+.ourReviews .customerPhoto { display: block; box-shadow:0 0 5px #999; padding:3px; background:#fff;
+transform:rotate(-8deg);
+-ms-transform:rotate(-8deg); 	/* IE 9 */
+-moz-transform:rotate(-8deg); 	/* Firefox */
+-webkit-transform:rotate(-8deg); /* Safari 和 Chrome */
+-o-transform:rotate(-8deg); 	/* Opera */
+}
+.ourReviews .reviewInfo { line-height:22px; font-size:14px; font-style:italic; padding-top:10px; background:url(/pic/quote-left.png) no-repeat left 10px; padding-left:35px; margin-bottom:65px;}
+.ourReviews .reviewInfo .quoteRight { background:url(/pic/quote-right.png) no-repeat; display:inline-block; width:23px; height:20px;}
+.ourReviews .reviewInfo a { text-decoration: underline;}
+.ourReviews .reviewInfo a:hover { text-decoration: none;}
+.inquiryBtn { display: block; padding:30px 0 50px; text-align:center; font-size:24px;}
+.inquiryBtn .inquiryNow { background:#a31022; text-align:center; display: block; border-radius:4px; width:250px; margin:25px auto; }
+.inquiryBtn .inquiryNow input { color:#fff; text-decoration: none; display: block; padding:10px 0; font-size:18px;}
+.inquiryBtn .inquiryNow a { color:#fff; text-decoration: none; display: block; padding:10px 0; font-size:18px;}
+.inquiryBtn .inquiryNow:hover { background:#800D1C} 
+.open-close { display: block; margin:25px 0 5px; text-align: right; color:#999; font-weight: bold;}
+.open-close a { color:#a31022; margin:0 10px; font-weight: normal; font-size:14px; text-decoration: none;cursor:pointer;}
+.open-close a:hover { text-decoration: underline}
+.specialistSay { font-size:14px; line-height:25px;}
+
+.tourSummary h2 {color:#666 !important;}
+.priceBlock { border:1px solid #d1d1d1; background:#f1f1f1; border-radius:4px; padding:30px 25px; font-size:14px; margin-left:30px;}
+.sendButton {
+    background: #a31022 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 10px 15px 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.priceBlock .basedOn { display: block; text-align: center;}
+.priceBlock .inquiryNow { text-align:center; display: block; border-radius:4px;  margin:25px auto 0; }
+.priceBlock .inquiryNow input {background:#a31022; border:0px; color:#fff; text-decoration: none; padding:10px 0; font-size:18px;min-width: 250px;display: inline-block}
+.priceBlock .inquiryNow .fa {color:#fff; font-size:120%; display: inline-block}
+.priceBlock .inquiryNow:hover { background:#800D1C}
+.priceBlock .inquiryNow:hover input{ background:#800D1C}
+.priceBlock b { color:#a31022; margin:0 10px 10px; font-size:35px; font-weight: normal; display: inline-block;}
+.priceBlock .from { display:inline-block; float: left; margin-top:5px;}
+select{display: block;font-size: 16px;padding:8px 5px 8px 10px;width: 100%;margin-bottom:12px;border: 1px
+    solid #d1d1d1;border-radius: 2px;background: url(/pic/select-tag.png) no-repeat 96% center #fff;-webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none; background-size: 15px;}
+input{    display: block;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    width: 100%;
+    border: 1px
+ solid #d1d1d1;
+    border-radius: 4px;
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    font-size: 18px;}
+    input.FullName {
+        background: url(//data.chinahighlights.com/pic/input-name.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.EmailAddress {
+        background: url(//data.chinahighlights.com/pic/input-email.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.InquiryCalendar {
+        background: url(//data.chinahighlights.com/pic/top10/tour-calendar.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.Inquiryphone {
+        background: url(https://data.chinahighlights.com/pic/top10/tour-form-phone-tag-bg.png) no-repeat 15px;
+        padding-left: 50px;
+        width: 100%;background-color: #fff;
+    }
+    input, textarea {
+        background-color: #fff;
+        border: medium none;
+        border-radius: 4px;
+        box-shadow: 0 0 2px #999;
+        color: #333;
+        font-size: 16px;
+        padding: 10px;
+        line-height: 22px;
+        font-family: 'Open Sans', sans-serif;
+    }
+:disabled{color: #c9c9c9}
+.totalPrice{margin-top: 20px}
+.priceTitle{font-weight: 600;font-size: 18px;display: inline-block}
+.priceDetail{font-weight: 700;font-size: 22px;display: inline-block;float: right;color: #a31022}
+.ticketConfirm{font-size: 14px;line-height: 20px;margin-top: 20px}
+.confirmNotice{color: #a31022}
+option{display: block;width: 100%;word-wrap: break-word;padding: 5px}
+.cuttingLine{width: 100%;height: 0;border-top: 1px #d1d1d1 solid;margin-top: 20px;}
+.ticketNumber{font-size: 18px}
+.numControl{display: block;margin-left: 20px;border-top: 1px solid #d1d1d1;border: 1px solid #b5b5b5;border-radius: 4px;height: 42px;position: relative;}
+.numControl a{text-decoration: none;display: inline-block;text-align: center;width: 50px;font-size: 28px;font-weight: 400;background: #E6E6E6;height: 40px;border: 2px #FFF solid;
+    border-radius: 2px;}
+.travelNumber{width: 78px;font-size: 20px;height:40px;background: #fff;border: none;padding: 5px;text-align: center;vertical-align: top}
+.plus{float: right;border-right: 1px solid #b5b5b5;}
+.minus{border-left: 1px solid #b5b5b5;}
+.dashed{width: 100%;height: 0;border-top: 1px #d1d1d1 dashed;margin-top: 20px}
+.includeInfo{margin-left: 30px;display: block;border: 1px solid #d1d1d1;padding: 0 25px 25px 25px;margin:35px 0 30px 30px;border-radius: 4px}
+.fixedNav { display: block;}
+.fixedNav li { margin-bottom:5px; border:1px solid #d1d1d1; background:#f1f1f1; border-radius:4px; padding:10px 25px; font-size:20px; color:#777; margin-left:30px;}
+.fixedNav li.active { background: url(/pic/bg-nav-active.png) no-repeat left; border: none; color:#fff; position:relative; margin-left:0; padding-left:55px;}
+.fixedNav li:first-child:hover { background: url(/pic/bg-nav-active.png) no-repeat left; border: none; color:#fff; position:relative; margin-left:0; padding-left:55px;}
+.fixedNav li.active:hover{ background-color: none!important;}
+.fixedNav li.active a { color:#fff;}
+.fixedNav li:hover:not(:first-child){ background:#a31022;}
+.fixedNav li:hover a {color:#fff;}
+.tourPrice h2{margin-top: 0!important;text-align: center;line-height: 36px;font-size: 26px!important}
+/*booking table start*/
+.form-control{width:100%;padding:7px 15px;font-size:16px;height:40px;border:1px solid #d1d1d1;border-radius:4px;margin-bottom:15px;background:#fff}
+.joinaHike{width:100%;background:#f1f1f1;border-radius:6px;padding:10px 15px 20px 15px;position:relative;border:1px solid #cecece}.joinaHike .hikingTitle{display:block;font-size:26px;color:#a31022;margin-bottom:5px;text-align:center}.joinaHike input.contactInfo{width:100%;padding:7px 15px;font-size:16px;height:40px;border:1px solid #d1d1d1;border-radius:4px;margin-bottom:15px;background:#fff}.joinaHike input.calendarIcon{background:url(https://data.chinahighlights.com/css/images/calender.GIF) no-repeat scroll 98% 12px #fff;padding:15px;font-size:16px;border-radius:4px;width:100%;display:block;height:40px;font-weight:300;color:#555;border:1px solid #d1d1d1}.joinaHike input.fullname{background:url(//data.chinahighlights.com/pic/input-name.png) no-repeat 15px #fff;padding-left:50px}.joinaHike input.email{background:url(//data.chinahighlights.com/pic/input-email.png) no-repeat 15px #fff;padding-left:50px}.joinaHike textarea{border:1px solid #d1d1d1;background:#fff;border-radius:4px;padding:7px;height:120px;width:100%;line-height:16px;font-size:15px;color:#555;box-shadow:0 0 2px #d1d1d1}.questionTitle{font-size:20px;margin:15px 0 5px 0;display:block;color:#000;font-weight:300}input.sendInquiry{background:#a31022;cursor:pointer;padding:8px;font-size:20px;border:none;color:#fff;display:block;margin:10px 0 0;text-align:center;width:100%;border-radius:4px}.joinaHike label{margin-right:5px}.joinaHike .selectBox{display:block;font-size:13px}.joinaHike select{width:47%;display:inline-block;margin-right:5px;border:1px solid #d1d1d1;border-radius:4px;background:url(/pic/select-tag.png) no-repeat 96% center #fff;color:#555;padding:5px;font-size:16px}.requiredArea{border-bottom:1px dashed #a31022;color:#a31022;display:block;font-size:14px;padding-top:3px}.lastLead{display:block;text-align:right}.lastLead a{color:#a31022;font-size:20px}textarea{width:100%;font-size:14px;padding:10px;background-color:#fff;margin-bottom:10px;border-radius:4px;border:none;color:#333}textarea:focus{border-color:#a31022;transition:all .5s ease-in-out;border-radius:10px}textarea{background-color:#fff;border:medium none;border-radius:4px;color:#333;font-size:14px;margin-bottom:10px;padding:10px;width:100%}textarea{background-color:#fff;border:medium none;border-radius:4px;color:#333;font-size:14px;padding:10px}textarea{width:100%}@media (max-width:750px){.TourImgTitle{margin-bottom:20px!important}}.TourImgTitle{display:block;font-size:15px;margin-top:5px;font-style:italic;padding-right:10px;color:#777}h2{font-size:28px!important;color:#000!important;margin:35px 0 30px;font-weight:300!important}.choiceBlock{display:block;border-radius:4px;padding:30px 10px 10px;position:relative;margin:55px 0 20px;border:1px solid #0c6197}.choiceBlock .shipName{font-size:20px;position:absolute;left:20px;top:-20px;background:#fff;padding:5px 10px;display:block;color:#0c6197}.choiceBlock table{width:100%}.choiceBlock table th{padding:5px 10px 5px 0;border-bottom:1px dotted #999}.choiceBlock table td{padding:5px 10px;border-bottom:1px dotted #999}
+.quickInfo input{margin-bottom: 15px;}
+/*end*/
+@media(max-width:750px) {
+.tourPrice { margin-left:0 !important;}	
+.guideInfo, .carInfo { width:100% !important; float: none !important; border-right: none !important; border-bottom:1px solid #d1d1d1; padding-left:0 !important; padding-bottom:20px; margin-bottom:20px;}
+.guidePhoto, .carPhoto { float: none !important; margin:10px auto 15px;}
+.guideSummary, .carSummary { float: none !important; width:100% !important;}
+.specialistSay { margin-bottom:25px;}
+.ourReviews .customerPhoto { transform: none !important; margin-left:auto; margin-right:auto;}
+}
+
+.footerBtn {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    background: #a31022;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 8px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.inquirybottom{color: #ad1818}
+.footerBtn a{color: #fff;text-decoration: none;}
+
+.footerBtn>span {
+    color: #fff;
+}
+
+@media(max-width:768px) {
+    .footerBtn {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: block !important;
+        width: 100%;
+        color: #fff;
+        font-size: 18px;
+        background: #a31022;
+        border-radius: 0px;
+        z-index: 9999;
+    }
+#footerBtn_sub{width:100%;font-size:18px;display:block}
+}
+
+
+
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+
+
+
+
+/* for ah-23 */
+@media(min-width:1024px) {
+.freeIcon { display: block; position:absolute; left:0; bottom:-30px; cursor:pointer}
+.freeTerms { background:#f1f1f1; padding:20px 0 15px;}
+.freeTerms .container { padding-left:150px; position:relative;}
+.freeTerms .container .closeIcon { display: block; position:absolute; right:-30px; top:30px; cursor:pointer}
+.freeTerms .freeTitle { display: block; font-size:22px; margin-bottom:15px;}
+.freeTerms ol { margin-left:10px; padding-left:10px;}
+.freeTerms li { font-size:18px; line-height:20px; margin-bottom:5px; font-weight:300;}
+}
+@media(max-width:768px) {
+.freeIcon, .freeTerms { display: none !important;}	
+}

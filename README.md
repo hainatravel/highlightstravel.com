@@ -1,2 +1,0 @@
-# highlightstravel.com
-highlightstravel.com

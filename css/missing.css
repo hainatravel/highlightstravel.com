@@ -1,0 +1,18 @@
+
+#inquiryForm{background:#f1f1f1;padding-top:50px;padding-bottom: 80px}
+.errorBackground{text-align: center}
+.errorPic{width: 50%}
+.textPart {text-align: center;margin-top: 20px;line-height: 2.5em}
+.container{font-family:'Open Sans',sans-serif}
+.oops{font-style: italic; font-weight: 600; font-size: 32px}
+.errorText { font-size: 24px}
+.backButton{ text-align: center;margin-top: 40px}
+.backButton input{ background-color: #a31022; border-radius: 6px; border: #a31022; font-size: 20px; color: #FFF; padding: 8px;width: 200px  }
+.backButton input:hover {border-radius: 100px}
+.goHome {font-size: 16px;color: #999;text-align: center;margin-top: 30px;}
+.goHome a {color: #999;text-decoration: none;padding-bottom:5px; border-bottom: 1px solid #999}
+.goHome a:hover {color:#a31022} 
+.iconSet {margin-right: 8px;vertical-align: middle;display: inline-block;margin-top:-5px}
+@media( max-width:768px){
+.errorPic {width: 100%}
+}

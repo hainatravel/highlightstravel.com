@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family: 'Open Sans', sans-serif; font-size: 12px; color: #545454; }
+p a:hover { text-decoration: none!important; }
+/* header & menu */
+#header { width: 100%; display: block; }
+.menu { display: block; text-align: right; font-size: 16px; margin-top: 82px; position: relative; }
+.menu a { text-decoration: none; display: inline-block; margin-left: 25px; text-transform: uppercase; }
+.menu li { display: inline-block; }
+.menu > a:hover { color: #a31022; border-bottom: 4px solid #a31022; padding-bottom: 8px; }
+.dropdown-menu-ah { background-color: #fff; position: absolute; font-size: 14px; top: 100%; left: 0; z-index: 9999; display: none; float: left; min-width: 160px; padding: 8px 0; margin: 0 0 0; list-style: none; text-align: left; border: 1px solid transparent; border-radius: 4px; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175); background-clip: padding-box; }
+.dropdown-menu-ah li a { padding: 8px 8px 0px 8px; margin-left: 0px; }
+.dropdown-menu-ah li { position: relative; }
+.dropdown-menu-ah li em { position: absolute; background: rgba(0,0,0,.7); right: 8px; top: 35px; padding: 2px 5px; color: #fff !important; border-radius: 4px 0 0 4px; font-style: normal; }
+.dropdown-menu-ah li em a { color: #fff !important; padding: 0 !important; }
+@media(max-width:750px) {
+.dropdown-menu-ah { background: rgba(0,0,0,1) !important; width: calc(100% + 60px) !important; float: none !important; text-align: right !important; margin-right: -20px !important; margin-left: -35px !important; padding: 5px 15px 25px 35px !important; border-radius: 0!important; }
+.dropdown-menu-ah img { display: none !important; }
+.dropdown-menu-ah li { line-height: 15px !important; padding: 0 !important; margin: 0 0 -15px !important; z-index: 9999 !important; }
+.dropdown-menu-ah li a { padding: 2px 0 !important; margin: 0 !important; display: block !important; z-index: 99999 !important; }
+.dropdown-menu-ah li em { position: relative !important; background: none !important; top: auto !important; right: auto !important; }
+.dropdown-menu:hover { display: block !important; }
+}
+.contactInfo { position: absolute; text-align: right; top: 10px; right: 15px; text-transform: uppercase; }
+.contactInfo a { margin-right: 25px; text-decoration: none; }
+.contactInfo .phoneNumber { background: url(https://data.asiahighlights.com/pic/phone-icon.png) no-repeat left; padding-left: 22px; }
+p { font-size: 16px; line-height: 28px; }
+/* footer */
+.footerMember { background: #535353; padding: 25px 0; text-align: center; }
+.footerMember img { max-width: 100%; }
+#footer { color: #aeaeae; margin-top: 0 !important; }
+#footer .copyright { display: block; }
+#footer .copyright a { color: #fff; text-decoration: none; margin: 0 50px 15px 0; display: inline-block; }
+#footer .copyright span { display: block; color: #7e7e7e; }
+#footer .socialMedia { text-align: right; margin-top: 10px; }
+#footer .socialMedia .followUs { color: #fff; }
+#footer .socialMedia a { background-color: #fff; border-radius: 50%; color: #363636; display: inline-block; font-size: 23px; height: 35px; margin: 0 5px -10px; text-decoration: none; width: 35px; text-align: center; padding-top: 5px; }
+.tailor-make { background: #fff; border-top: 1px solid #d1d1d1; padding: 30px 0; }
+@media(max-width:768px) {
+#footer { padding: 15px 0 13px !important; }
+.menu { text-align: center !important; margin-top: 0!important; }
+.menu a { margin: 10px 0 !important; display: block; text-align: left; color: #fff; font-size: 14px !important; }
+.menu a.active { border-bottom: none !important; padding-bottom: 0 !important; color: #fff !important; }
+.menu a:hover { border-bottom: none !important; padding-bottom: 0 !important; }
+.navbar-collapse { background: rgba(0,0,0,.8) !important; top: 45px !important; padding: 10px 0; }
+.navbar-inverse .navbar-toggle .icon-bar { background-color: #333 !important; }
+.navbar-toggle { margin: 10px 10px 0 0 !important; }
+.navbar-toggle:hover { background: none !important; }
+}
+.typeahead, .tt-query, .tt-hint { width: 396px; height: 30px; padding: 8px 12px; font-size: 24px; line-height: 30px; border: 2px solid #ccc; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; outline: none; }
+.typeahead { background-color: #fff; }
+.typeahead:focus { border: 2px solid #0097cf; }
+.tt-query { -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+.tt-hint { color: #999 }
+.tt-menu { width: 422px; margin: 12px 0; padding: 8px 0; background-color: #fff; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2); -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2); box-shadow: 0 5px 10px rgba(0,0,0,.2); }
+.tt-suggestion { padding: 3px 20px; font-size: 18px; line-height: 24px; }
+.tt-suggestion:hover { cursor: pointer; color: #fff; background-color: #0097cf; }
+.tt-suggestion.tt-cursor { color: #fff; background-color: #0097cf; }
+.tt-suggestion p { margin: 0; }
+.gist { font-size: 14px; }
+.open>.dropdown-menu { z-index: 9999999; }/*csk解决有些页面导航会被覆盖*/
+.csk-overflow-y { overflow-y: visible !important; }/*csk解决手机端二级导航显示不全的问题*/
+
+/* silde menu */
+.slideMenu { margin-top: 24px !important;}
+.createTrip { background:#a31022; color:#fff; padding:2px 15px; border-radius:4px;}
+.createTrip:hover { padding-bottom:0 !important; color:#d1d1d1 !important; border-bottom: 2px solid #a31022 !important;}
+.navbar-toggle{ float: left !important; margin-top:5px!important;}
+.tailorM a { background:#a31022; padding:3px 10px; color:#fff; text-decoration: none; border-radius:4px; margin-top:8px; display: block; text-align: center; font-family:Arial, Helvetica, sans-serif; }
+#header { border-bottom:2px solid rgba(0,0,0,.3); z-index:9999;}
+.navbar-collapse { width:100% !important; margin-right:0 !important; right:0 !important;}
+@media(min-width:1024px) {
+.tailorM { display: none !important;}
+.navbar-header { display: none !important;}	
+}
+@media(max-width:760px) {
+.navbar-inverse { padding-top:5px; padding-bottom:5px;}	
+.createTrip { background: none !important; padding: inherit !important;}
+}
+

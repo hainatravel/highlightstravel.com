@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+label { font-weight: normal !important;}
+#inquiryForm { background-color: #f1f1f1; padding-top: 30px; }
+.pgHead { display: block; margin-top: 15px; }
+.advisorInfo { background-color: #fff; border-radius: 4px; padding: 20px 15px; font-size: 18px; position: relative; margin-top: 30px; display: block; }
+.advisorInfo .arrow { background: url(https://data.asiahighlights.com/pic/white-arrow.png) no-repeat; display: block; width: 21px; height: 26px; position: absolute; left: -20px; top: calc(50% - 13px); }
+.FormDetail { background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important; border-radius: 6px; box-shadow: 0 0 3px #666 inset; padding: 20px 40px 20px 50px; position: relative; z-index: 9999; margin: 50px 0; }
+.TourInfo { border-bottom: 2px solid #d5d5d5; padding-bottom: 15px; margin-left: -25px; }
+.InquiryOn { text-align: right; color: #c01935; font-size: 20px; }
+.tourDetail ul li { list-style: none; margin-bottom: 7px; font-size: 18px; }
+.tourDetail ul li .detailName { color: #b0b0b0; }
+.Question { font-size: 18px; margin-top: 20px; margin-bottom: 15px; margin-left: -25px; }
+.who { font-size: 15px; }
+.who select { width: 125px; }
+.dateFlexible { font-size: 14px; }
+.Flexible { font-size: 17px; color: #525252; margin-top: 15px; margin-bottom: 15px; }
+.ChooseDate { font-size: 15px; margin-bottom: 15px; }
+.personalInfo { margin-bottom: 10px; }
+select { border: 1px solid #d1d1d1; padding: 5px; border-radius: 4px; }
+select#gender { padding: 0 !important; border: none !important; background: #eee; }
+input.hotel { margin-right: 7px; }
+input.arrivalDate { width: 300px; border-radius: 4px; height: 35px; }
+@media(max-width:760px) {
+input.arrivalDate { width: 100% !important; }
+.personalInfo input { border-width: 2px !important; }
+}
+input .ExpectTrip { background: #fff none repeat scroll 0 0; border: 5px solid #d1d1d1; border-radius: 4px; color: #555; font-size: 12px; height: 150px; margin-left: 27px; padding: 10px; }
+.formItem { display: block; margin-bottom: 35px; }
+input { border: 1px solid #d1d1d1; border-radius: 4px; padding: 5px 10px; }
+.flexibleDate { padding: 2px 10px !important; }
+textarea { width: 100%; border: 1px solid #d1d1d1; border-radius: 4px; padding: 10px; height: 150px; }
+.fa-fw, .fa-globe, .fa-phone { color: #0c6197; font-size: 16px !important; width: 2em !important; }
+.personalInfo { margin: 0 20px 20px 0; position: relative }
+.personalInfo label { color: #666; display: block; font-size: 13px; font-weight: bold; margin-bottom: 4px; }
+.personalInfo input { margin: 0 !important; }
+.personalInfo select { border: none; background: #f1f1f1; margin: -1px -5px 0 -10px; color: #0c6197; }
+.noSpam { display: block; font-size: 0.9em; position: absolute; bottom: -20px; left: 15px;color: #999 }
+.sendInquiry { display: block; margin-top: 40px; margin-bottom: 20px; }
+input[type="submit"] { width: 100%; background: #a31022; border: none; padding: 10px; color: #fff; font-size: 22px; font-family:  'Open Sans', sans-serif; }
+@media(max-width:768px) {
+.who { margin-bottom: 20px; }
+.advisorInfo { font-size: 14px; }
+.pgHead { margin-top: 30px !important; }
+.FormDetail { margin-top: 30px !important; }
+.advisorInfo { margin-top: 0 !important; }
+}
+input.arrivalDate { background: url(https://data.asiahighlights.com/pic/calendar.png) no-repeat 95% center; }
+/*csk 底部表单*/
+.footerBtn { display: block; margin: 0 auto; width: 250px; text-align: center; background: #a31022; border-radius: 4px; font-size: 20px; padding: 8px 0; color: #fff; cursor: pointer; }
+.footerBtn>span { color: #fff; }
+@media(max-width:768px) {
+.footerBtn { position: fixed; bottom: 0; left: 0; display: block !important; width: 100%; color: #fff; font-size: 18px; background: #a31022; border-radius: 0px; z-index: 9999; }
+.footerBtn input[type="submit"] {width:100%}
+}
+#footerBtn_sub{width: 100%}
+/* from tailor made */
+.whoTravel { display: block; margin: 5px 0 20px; }
+.whoTravel .groupType { display: block; padding: 8px 0 8px 35px; }
+.whoTravel .groupType.adults { background:url(https://data.asiahighlights.com/pic/adults-icon.png) no-repeat left;}
+.whoTravel .groupType.youth { background:url(https://data.asiahighlights.com/pic/yonth-icon.png) no-repeat left; padding-left:55px !important;}
+.whoTravel .groupType.kids { background:url(https://data.asiahighlights.com/pic/kid-icon.png) no-repeat left;}
+.whoTravel .groupType select { display: block; width:100%; border:1px solid #d1d1d1; height:30px; border-radius:4px; margin:5px 0 0;}
+.whoTravel .groupType label { display: block; clear: both; width: 100%;}
+.hotelBlock { display: block; margin: 5px 0 30px; }
+.hotelBlock .hotelStyle { display: block; padding-top: 40px; text-align: center; cursor: pointer; margin-top:20px; }
+.hotelBlock .hotelStyle.luxury { background: url(https://data.asiahighlights.com/pic/luxury.png) no-repeat top center; }
+.hotelBlock .hotelStyle.boutique { background: url(https://data.asiahighlights.com/pic/boutique.png) no-repeat top center; }
+.hotelBlock .hotelStyle.comfort { background: url(https://data.asiahighlights.com/pic/comfort.png) no-repeat top center; }
+.hotelBlock .hotelStyle.standard { background: url(https://data.asiahighlights.com/pic/standard.png) no-repeat top center; }
+.contactinfo { display: block; margin-top:5px; margin-bottom:30px; }
+.input-group-addon { background: #d1d1d1 !important; }
+.personalInfo label { color: #666; display: block; font-size: 13px; font-weight: bold; margin-bottom: 4px;  }
+.personalInfo input { font-size: 1.5rem; font-weight: normal; padding: 6px 3px 6px 10px; background-color: #fff; color: #333; width: 100%; font-family:  'Open Sans', sans-serif; border-radius: 2px; margin: 0 !important; border: 5px solid #d1d1d1; height: 40px; }
+.personalInfo input:focus { border-color: #a31022; }
+.personalInfo select { border: none; background: #d1d1d1; margin: -1px -5px 0 -10px; color: #0c6197; }
+.sendInquiry { display: block; margin-right:5px !important; margin-left:-35px !important; }
+.sendInquiry input { background: #a31022; text-align: center; width: 100%; color: #fff; padding: 8px 0; border-radius: 4px; font-size: 1.8em; border: none; font-family:  'Open Sans', sans-serif; cursor: pointer; margin-left: 20px; }
+/*nationality */
+.ac_results { background-color: #FFF; border: 1px solid #5E5E5E; z-index: 9999; border-radius: 0 0 4px 4px; }
+.ac_results ul { margin: 0px; padding: 0px; }
+.ac_results li { list-style: none; padding: 5px 10px 5px 10px; cursor: default; margin: 3px; color: #545454; text-transform: capitalize; }
+.ac_results .ac_caption { border-bottom: dashed 1px #666; color: #666; margin: 8px 10px 3px 10px; }
+.ac_results .ac_even { background-color: #FFF; }
+.ac_results ac_odd { background-color: #FFF; }
+.ac_results .ac_over { background-color: #bce7ff; color: #a31022 }
+.ac_results .ac_code { color: #545454; width: 50%; display: block; float: left; margin-right: 10px; }
+.ac_results .ac_Name { color: #545454; }
+.ac_results .ac_highLight { font-weight: bold; color: #a31022; }
+input.nationality { text-transform: capitalize; }
+.twitter-typeahead { display: inline !important;}

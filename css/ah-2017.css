@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+#banner { display: block; position: relative; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin: 0; }
+#banner h1.AboutUs { color: #fff; display: block; font-size: 30px; font-weight: normal; left: 0; top: -365px; line-height: 37px; position: absolute; text-align: left; width: 600px; background: none; border-bottom: none; }
+h2 { text-align: center; font-style: Trebuchet MS; font-size:26px; margin: 0 0 35px;}
+a { text-decoration: none;}
+@media(max-width:750px) {
+#banner h1 { background: none !important; color:#555 !important; position:static !important; font-size:20px !important}	
+	
+}
+/* recommend tours */
+.ratedTours { background: #f1f1f1; padding: 30px 0 50px; margin-bottom: 20px; }
+.ratedTours img { border-radius: 4px 4px 0 0; }
+.tourInfo { background: #fff; padding: 10px 20px; border-radius: 0 0 4px 4px; margin-bottom:15px; border:1px solid #d1d1d1; }
+.tourPhoto { position:relative;}
+.tourPhoto img { width:100%; border-radius:4px 4px 0 0;}
+.tourPhoto .dayTag { background:url(https://data.asiahighlights.com/pic/days-tag.png) no-repeat; display: block; width:67px; height:65px; text-align:center; color:#fff; position:absolute; right:0; bottom:0; font-size:14px; padding-top:10px; line-height:15px;}
+.tourInfo .destinations { color: #777; display: block; height: 33px; margin: 10px 0 20px; }
+.tourInfo .viewDetail a { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/red-arrow.png") no-repeat scroll right center; color: #a31022; font-size: 15px; padding-right: 15px; text-decoration: none; text-align:right; display: block;}
+.priceFrom { display: block; margin:15px 0;}
+.priceFrom em { color:#a31022; font-style:normal; font-size:16px; margin-left:5px;}
+.priceFrom strong { color:#a31022; font-style:normal;  font-size:30px;}
+/* page footer tailor made block */
+.inpageTailor { margin: 0 0 10px 0; padding-top: 15px;}
+.inpageTailor .tailorForm .tailorContent {font-size: 17px; line-height: inherit; }
+.tailorButton a { width: 240px; border: 2px solid #a31022; border-radius: 4px; display: block; text-decoration: none; font-size: 20px; padding: 5px 10px 20px; text-align: center; position: relative; color: #555 }
+.tailorMadeButton a { width: 240px; border: 2px solid #a31022; border-radius: 4px; display: block; text-decoration: none; font-size: 20px; padding: 5px 10px 20px; text-align: center; position: relative; color: #555;left: 35px;
+    top: 75px; }
+.tailorButton a:hover { background: #a31022; color: #fff; transition: all 0.5s ease-in-out; }
+.tailorButton .promiseWords { font-size: 11px; display: block; margin-top: -21px; margin-left: 8px; padding-left: 15px; color: #000; }
+
+.tailorButton .promiseWords:hover { color: #fff }
+
+.tailorMadeButton a:hover { background: #a31022; color: #fff; transition: all 0.5s ease-in-out; }
+.tailorMadeButton .promiseWords { font-size: 11px; display: block; margin-top: -21px; margin-left: 8px; padding-left: 15px; color: #000;  margin-left: 40px;
+    margin-top: 55px;}
+
+.tailorMadeButton .promiseWords:hover { color: #fff }
+@media(max-width:750px) {
+.TopReasons { padding-top:0 !important;}
+.tailorButton a { margin:15px auto !important; padding:5px 10px 10px !important;}
+.tailorButton .promiseWords { display: none !important;}
+.footerTailor { background:#daceb9 !important;}	
+.footerTailorShort  { background:#daceb9 !important;}
+.textBlock { width:100% !important; float: none !important; font-size:14px !important; margin-left:0 !important;}	
+.textBlock span { padding:5px 0 7px !important;}
+.textBlock span a { font-size:14px !important; width:200px !important}
+}
+/*-------- 2016-12-05------ */
+.bookingSteps { display: block; position: absolute; top: -290px; color: #fff; margin-left: 60px }
+.bookingSteps .steps { width: 180px; height: 180px; display: inline-block; background: rgba(0,0,0,.7); border-radius: 50%; text-align: center; font-size: 16px; padding: 10px 24px; margin-right: 40px; }
+.bookingSteps .steps strong { display: block; font-size: 30px; font-weight: normal; margin-bottom: 10px; }
+.bookingSteps .tailorMake { display: block; font-size: 25px; float: right; margin-top: 40px; }
+.bookingSteps .tailorMake span { display: block; }
+.bookingSteps .tailorMake span a { color: #fff; display: block; font-size: 16px; border: 3px solid #fff; border-radius: 4px; padding: 8px 0; text-align: center; text-transform: uppercase; text-shadow: 0 0 2px #333; font-weight: bold; width: 200px; margin: 15px auto; box-shadow: 0 0 5px #333 inset; }
+.bookingSteps .tailorMake span a:hover { box-shadow: 0 0 5px #000 inset; }
+.bookingSteps .tailorMake span .fa { font-size: 120%; margin-left: 5px; font-weight: bold; }
+@media(max-width:768px) {
+.bookingSteps { position: relative !important; background: #555; width: 100% !important; margin-left: 0 !important; top: 0 !important; margin-top: 15px; padding: 20px; display: none !important; }
+.bookingSteps .steps { display: none !important;}
+.bookingSteps .steps strong { display: block !important; margin-bottom: 0 !important; font-size: 20px !important; float: left !important; margin: 5px 15px 0 0; }
+.bookingSteps .tailorMake { float: none !important; text-align: center !important; margin-top: 20px !important; font-size:20px !important;}
+.destiMap { margin-bottom:30px !important}
+.groupTravel { border: none !important; padding:0 !important;}
+.tailorPhoto { text-align:center; display: block;}
+}
+.TopReasons { padding-bottom: 30px; margin-bottom: 30px; }
+.TopReasons h2 { margin-top: 0 !important; text-align: center; }
+.TopReasons h3 { color:#999; font-size:16px; margin:0 0 15px;}
+.reasonInfo { font-size:14px; padding-left:23px; display: block; margin-bottom:30px;}
+.reasonInfo a { color:#a31022;}
+.reasonInfo .fa { font-size:115%;}
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+
+#topPlaces { background:#f1f1f1; padding:25px 0; margin: 0 0 30px;}
+#topPlaces  h2 { text-align:center;}
+#topPlaces h3 { color:#0957a0; font-size:20px; margin:0 0 20px;}
+#topPlaces .whyVisa { font-size:16px; color:#000; display: block; margin-bottom:5px;}
+#topPlaces ol { margin-left:10px; padding-left:10px; margin-bottom:30px;}
+#topPlaces li{ font-size:14px; line-height:20px; margin-bottom:10px;}
+.destiMap { float: right; margin:15px 0 10px 30px;}
+.whenVisit { padding:25px 0; margin:25px 0; display: block;}
+.whenVisit h2 { text-align:center;}
+.travelStyle {background:#f1f1f1; padding:25px 0; margin-bottom:25px;}
+.travelStyle h2 { font-size: 28px; text-align: center; }
+.travelStyle h3 { font-size: 16px; color: #09599d; display: block; margin: 15px 0 20px; }
+.travelStyle .firstP { font-size: 16px; text-align: center; margin-bottom: 20px; }
+.travelStyle ul li { line-height: 20px; margin-bottom: 20px; background: url(https://data.asiahighlights.com/pic/happy-icon.png) no-repeat left 5px; padding-left: 45px; font-size: 14px; min-height: 30px; }
+.travelStyle ul li strong { display: block; font-weight: normal; font-size: 15px; color: #333; }
+.travelStyle ul li.upset { background: url(https://data.asiahighlights.com/pic/upset-icon.png) no-repeat left top !important; }
+.groupTravel { border-left: 1px solid #d1d1d1; border-right: 1px solid #d1d1d1; padding: 0 20px 10px; }
+.groupTravel li { margin-bottom: 40px !important; }
+.flightsMap { background:#f1f1f1; margin:25px 0;}
+.photoTitle { text-align:center; display:block; margin:15px 0;}
+
+.more_content { margin-top:15px;}
+

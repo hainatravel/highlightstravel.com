@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+@media(max-width:750px) {
+h1 { margin-top: 50px !important }
+h1.GuilinTour { border-bottom: none; }
+.gltour img, .toparticle img { width: 100% !important; }
+.GuideName { text-align: left !important; }
+.GuilinTM { padding-left: 0 !important; }
+.GuilinMap { margin-bottom: 20px !important; width: 100% !important; }
+.infoList { margin-bottom: 20px !important; }
+.view { text-decoration: none; }
+.GuilinArticle { margin-bottom: 10px; }
+}
+h1 { margin-bottom: 30px !important; }
+h1.GuilinTour { border-bottom: none; }
+h2 { margin: 20px 0 30px !important; font-size: 25px !important }
+h2 span { background: #1375a8; font-size: 12px; color: #fff; border-radius: 4px; padding: 1px 10px 2px; }
+.cityGuide { display: block; height: 100%; position: relative; }
+.cityGuide h2 { border-bottom: 1px solid #e2e2e2; color: #545454; font-size: 18px; font-weight: normal; margin: 5px 0 15px; padding: 0 5px 2px 0; }
+.cityGuide .cityDetail { margin-bottom: 30px;}
+.cityGuide .cityDetail img { width: 100%; }
+.cityGuide .cityDetail sup { color: #fff; background: #a31022; padding: 0 3px 1px; border-radius: 4px; }
+.cityGuide .cityDetail .withBorder { border: 2px solid #a31022; border-radius: 4px; }
+.cityGuide .cityDetail .recommendIcon { display: block; background: url(https://data.asiahighlights.com/pic/recommended-icon-oppsite.png) no-repeat; width: 63px; height: 101px; position: absolute; right: 13px; top: -2px; }
+.cityGuide .cityDetail .cityTitle { border-radius: 0 0 4px 4px; color: #fff; padding: 8px 0 8px 10px; background: #d1d1d1; display: block; }
+.cityGuide .cityDetail .cityTitle2 { border-radius: 4px 4px 0 0; color: #fff; padding: 8px 0 8px 10px; background: #d1d1d1; display: block; }
+.cityGuide .cityDetail .cityTitle a { color: #1375a8; text-decoration: none; }
+.cityGuide .cityDetail .cityTitle2 a { color: #a31022; text-decoration: none }
+.cityGuide .cityDetail .cityTitle2 a:hover { text-decoration: none; }
+.cityGuide .cityDetail a { font-size: 18px; text-decoration: none; }
+.cityGuide .cityDetail ul { background: #d1d1d1; padding: 10px; border-radius: 0 0 4px 4px; }
+.cityGuide .cityDetail .photoBlock { position:relative}
+.cityGuide .cityDetail .cityTag { background: rgba(0,0,0,.5); display: block; text-align:center; width:215px; position:absolute; top:20px; left:0; border-radius: 0 4px 4px 0; color:#fff; padding:5px; text-transform:uppercase;}
+.cityGuide .cityDetail ul li { line-height: 18px; margin-bottom: 5px; background: url(https://data.asiahighlights.com/pic/red-mark.png) no-repeat left 8px; padding-left: 20px; }
+.cityGuide .cityDetail ul li a { text-decoration: none; font-size: 14px; }
+.cityGuide .cityDetail ul li a:hover { color: #a31022; text-decoration: none; }
+.promoLeft { margin-bottom: 15px; }
+.allList h3 { font-size: 15px; font-weight: bold; border-bottom: 1px solid #f1f1f1; padding: 0 0 3px 4px; margin: 5px 0 10px; }
+.allList .cityname { line-height: 18px; margin: 0 10px 10px -10px; }
+.allList .cityname sup { background: none repeat scroll 0 0 #a31022; border-radius: 4px; color: #fff; padding: 0 3px; }
+.allList .cityname a { background: url("data:image/gif;base64,R0lGODlhBwAJAJEAAAAAAP///6MQIv///yH5BAEAAAMALAAAAAAHAAkAQAIMnI9pMtx/mFNIVkgLADs=") no-repeat left; +background:url(http://data.chinahighlights.com/pic/doubleArrow2.gif) no-repeat left;
+padding-left: 15px; text-decoration: none; margin-left: 0; font-size: 14px; }
+/* day tours */
+.dayTours { background: #e9e9e9; border-radius: 4px; margin-bottom: 20px; padding-bottom: 15px; }
+.dayTours .tourInfo { margin: 0 15px; position: relative }
+.tourInfo .tourprice { color: #a31022; font-size: 25px; display: block; position: absolute; right: 0; bottom: -5px; font-family: Arial, Helvetica, sans-serif }
+.tourInfo .tourprice s { text-decoration: inherit; color: #999; font-size: 14px; }
+.dayTours img { width: 100%; margin-bottom: 10px; border-radius: 4px 4px 0 0 }
+.brochureDL { display: block; margin-bottom: 15px; }
+/* slide style */
+@media(min-width:1024px) {
+#homeSlideshow .flexslider { min-height: 510px; }
+}
+#homeSlideshow { background: url(http://data.chinahighlights.com/js/orbit/orbit/1-0.gif) no-repeat center center; margin-bottom: 25px; }
+#homeSlideshow .flexslider { position: relative }
+#homeSlideshow .flexslider ul { padding: 0; margin: 0 }
+#homeSlideshow .flexslider ul.flex-direction-nav a { width: 88px; height: 88px; display: block; background: url(http://data.chinahighlights.com/css/images/merge/csg-512c793703ac8.png) no-repeat 0 0 rgba(0,0,0,0.8); position: absolute; top: calc(50% - 44px); cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease; z-index: 10; border-radius: 4px; }
+#homeSlideshow .flexslider ul.flex-direction-nav a:focus { outline: 0 }
+#homeSlideshow .flexslider ul.flex-direction-nav .flex-next { background-position: 0 -422px; right: 10px }
+#homeSlideshow .flexslider ul.flex-direction-nav .flex-prev { background-position: 0 -560px; left: 10px }
+#homeSlideshow .flexslider ul.flex-direction-nav .disabled { opacity: .3!important; filter: alpha(opacity=30); cursor: default }
+#homeSlideshow .flexslider ul.slides { zoom: 1; position: relative }
+#homeSlideshow .flexslider ul.slides .textBlock { display: block; color: #fff; font-size: 30px; width: 70%; font-weight: normal; position: absolute; top: 100px; left: 50%; width: 500px; text-align: left; line-height: 37px; font-family: fontawesome; }
+#homeSlideshow .flexslider ul.slides .textBlock2 { display: block; font-size: 30px; width: 70%; font-weight: normal; position: absolute; top: 100px; left: 15%; width: 500px; text-align: right; color: #fff; line-height: 37px; font-family: fontawesome; text-shadow: 1px 1px 2px #333; }
+#homeSlideshow .flexslider ul.slides .textBlock3 { display: block; font-size: 30px; width: 70%; font-weight: normal; position: absolute; top: 40px; right: 10%; width: 600px; text-align: right; color: #fff; line-height: 37px; font-family: Trebuchet MS; text-shadow: 1px 1px 2px #333; }
+.textBlock3 .TopInfo { display: block; font-size: 20px; width: 70%; font-weight: normal; position: absolute; top: 85px; right: 10%; width: 500px; text-align: right; color: #fff; line-height: 37px; font-family: Trebuchet MS; text-shadow: 1px 1px 2px #333; left: 0; }
+#homeSlideshow .readMore { border: 3px solid #fff; padding: 5px 20px 6px; text-align: center; font-size: 16px; border-radius: 4px }
+#homeSlideshow .readMore a { color: #fff; text-decoration: none }
+#homeSlideshow .readMore:hover { box-shadow: inset 0 0 5px #f1f1f1 }
+#homeSlideshow .readMoreRed { border: 3px solid #a31022; padding: 5px 20px 6px; text-align: center; font-size: 16px; border-radius: 4px; background: rgba(163, 16, 34, .9); float: right; margin: -36px 204px 0 0 }
+#homeSlideshow .readMoreRed a { color: #fff; text-decoration: none }
+#homeSlideshow .readMoreRed:hover { box-shadow: inset 0 0 5px #666 }
+#homeSlideshow .flexslider ul.slides>li { display: none; -webkit-backface-visibility: hidden; position: inherit!important }
+#homeSlideshow .flexslider ul.slides>li span.visible-xs { font-size: 14px; }
+#homeSlideshow .flexslider ul.slides>img { width: 100%; display: block }
+#homeSlideshow .flexslider ul.slides>li img { width: 100%; }
+#homeSlideshow .flexslider ul.slides:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0 }
+#homeSlideshow .flexslider ol { padding: 0; margin: 0 }
+#homeSlideshow .flexslider ol.flex-control-nav { position: absolute; top: 93%; left: 10%; z-index: 9999 }
+#homeSlideshow .flexslider ol.flex-control-nav>li { margin: 0 6px; display: inline-block; zoom: 1 }
+#homeSlideshow .flexslider ol.flex-control-paging>li>a { width: 11px; height: 11px; display: block; cursor: pointer; text-indent: -9999px; background: #fff; border: 1px solid #fff; border-radius: 20px }
+#homeSlideshow .flexslider ol.flex-control-paging>li>a:hover { background: #a31022 }
+#homeSlideshow .flexslider ol.flex-control-paging>li>a.flex-active { background: #a31022 }
+#homeSlideshow .flexslider:hover .flex-next { opacity: .8; right: 5px }
+#homeSlideshow .flexslider:hover .flex-next:hover { opacity: 1 }
+#homeSlideshow .flexslider:hover .flex-prev { opacity: .8; left: 5px }
+#homeSlideshow .flexslider:hover .flex-prev:hover { opacity: 1 }
+@media (max-width:768px) {
+#homeSlideshow .flex-direction-nav { display: none!important }
+}
+.tailorBar { border-bottom: 7px solid #a31022; display: block; text-align: center; width: 100%; z-index: 8888; margin-bottom: -21px; margin-top: 20px; }
+.tailorBar .tailorInside { border-bottom: 1px solid rgba(255,255,255,.5); display: block; margin-bottom: -2px; }
+.tailorBar .createButton { display: block; background: #a31022; padding: 1px; border-radius: 8px 8px 0 0; width: 303px; margin: 0 auto; font-size: 20px; color: #fff; }
+.tailorBar .createButton .fa-file-text-o { border-radius: 4px; margin-right: 5px; }
+.tailorBar .createButton span { border: 1px solid rgba(255,255,255,.5); border-bottom: none !important; border-radius: 8px 8px 0 0; display: block; padding: 7px; margin-bottom: -2px; background: #a31022; }
+.tailorBar .createButton span:hover { border: 1px solid rgba(255,255,255,.8); box-shadow: 0 9px 10px rgba(0,0,0,.3) inset; transition: all 0.3s ease-in-out; }
+.tailorBar .createButton a { text-decoration: none; color: #fff; text-shadow: 1px 2px 3px rgba(0,0,0,.5); font-family: fontawesome; }
+.tailorBar .createButton a:hover { text-shadow: 1px 2px 3px rgba(0,0,0,.8); }
+/* theme tour list */
+.tourThemes { margin: 15px 0; background: #e7e8ea; padding: 35px 0; display: block }
+#taBlock { border: 2px solid #6ba454; height: 450px; background: #fff; }
+#CDSWIDSSP { width: 100% !important; }
+.overallRating { color: #006699; font-family: Arial, Helvetica, sans-serif; font-size: 14px; background: #fff; padding: 10px; }
+.overallRating strong { color: #6ba454; font-size: 18px; margin-right: 10px; }
+.taLink { background: #fff; padding: 20px 10px 10px; }
+.taLink span { border-bottom: 1px solid #ccc; display: block; padding-bottom: 5px; }
+.widSSPBranding { display: none !important; }
+.beijing-COE { margin-top: 160px; }
+.fa-share { font-size: 50px !important; margin-top: 210px; }
+.fa-share.red { color: #a31022 }
+.fa-share.green { color: #6ba454; }
+/* question box */
+@media(min-width:1024px) {
+#questionBox { height: 450px !important; }
+}
+#questionBox { padding: 5px 15px 15px; border: 2px solid #a31022; position: relative; }
+#questionBox .interested { font-size: 23px; display: block; margin: 5px 0; text-transform: uppercase; text-align: center }
+#questionBox .interest-label { font-size: 18px; display: block; margin-bottom: 20px; text-align: center }
+#questionBox .infoRequired { text-align: center; margin: 22px 0 0 0; display: block; }
+#questionBox .infoRequired input, textarea { width: 100%; font-size: 14px; font-family:  'Open Sans', sans-serif; padding: 5px; background-color: #fff; margin-bottom: 15px; padding: 10px; border: 1px solid #999; border-radius: 4px; }
+#questionBox .infoRequired input:focus, textarea:focus { border-color: #0074CC; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #0074CC; }
+#questionBox .infoRequired textarea { height: 150px; }
+#questionBox .sendButton { margin: 15px 0 5px; display: block; background: #a31022; border: none; color: #fff; text-shadow: 0 0 2px #000; text-align: center; border-radius: 4px; padding: 10px 0; font-size: 15px; width: 100%; font-size: 15px; }
+#questionBox .infoRequired label { padding: 0; margin: 0; position: absolute; top: 4px; left: 10px; cursor: text }
+/* submit checking */
+#questionBox .infoRequired .arrowDownTest label { line-height: 20px; position: relative; left: 0; margin: 0; padding: 0; top: 0; }
+#questionBox .infoRequired .arrowDownTest { background-color: #FFFFFF; border: 1px solid #999999; color: #A31022; display: block; padding: 3px 4px; position: absolute; z-index: 11000; left: 10px; top: -22px; }
+#questionBox .infoRequired .arrowDown { left: 4px; position: absolute; top: 26px; }
+/* fixed main menu */
+@media(min-width:1024px) {
+#header { position: fixed !important; z-index: 9999; width: 100%; }
+#homeSlideshow { padding-top: 110px; }
+}
+/* new update */
+.txtCenter { display: block; text-align: center; font-size: 18px; font-family: sans-serif; line-height: 35px; }
+h3.GuilintourTitle { font-size: 20px; margin-bottom: 15px; }
+h3.GuilinWhyUs { color: #04679a; font-size: 18px; margin-bottom: 15px; }
+.gltour .tour { border: 1px solid #cbcbcb; border-top: none; padding: 15px 15px 30px 15px; margin-bottom: 30px; border-radius: 0 0 4px 4px; }
+.gltour .tour p { height: 110px; }
+.gltour img { border-radius: 4px 4px 0 0; }
+.tourname { font-size: 16px; display: block; width: 100%; margin-bottom: 10px; height: 46px; }
+.tourdetail { font-size: 12px; color: #2963a3; width: 100%; display: block; margin-bottom: 10px; height: 34px; }
+.view { background: #a31022; border-radius: 4px; color: #fff; font-size: 14px; display: block; text-align: center; width: 100%; margin-top: 10px; padding: 6px 15px 6px 15px; text-decoration: none; }
+.toparticle { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; font-family: Trebuchet MS; margin-bottom: 30px; position: relative; }
+.toptitle { background-attachment: scroll; background-clip: border-box; background-color: rgba(0, 0, 0, 0.5); background-image: none; background-origin: padding-box; background-position: 0 0; background-repeat: repeat; background-size: auto auto; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top-left-radius: 0; border-top-right-radius: 0; bottom: 0; color: #fff; font-size: 14px; height: 55px; left: 0; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; position: absolute; text-align: center; width: 100%; }
+.Guilintoptitle { color: #fff; font-size: 14px; left: 0; padding-bottom: 5px; padding-left: 20px; padding-right: 10px; padding-top: 130px; position: absolute; border-radius: 0 0 4px 4px; width: 100%; }
+.GuideName { font-size: 14px; color: #04679a; display: block; text-align: center; float: left; margin-right: 20px; }
+.GuideName img { margin-bottom: 10px; }
+.GuilinTM { border-bottom: 2px solid #c9c9c9; text-align: center; padding-bottom: 35px; margin-bottom: 30px; }
+.infoList a { text-decoration: none; }
+.infoList img { border-radius: 4px; }
+.GuilinInfo { padding-top: 15px; font-size: 14px; }
+.GuilinTA { border-radius: 4px; border: 1px solid #589442; left: -15px; }
+.GuilinService img { margin-bottom: 10px; }
+.TourButton a { text-decoration: none; }

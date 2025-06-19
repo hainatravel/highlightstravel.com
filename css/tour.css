@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+#banner { display: block; position: relative; }
+#banner span { position: absolute; right: 10%; text-align: right; display: block; top: 25px; font-size: 38px; color: #fff; text-shadow: 2px 2px 2px #333; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin-bottom: 1px !important; }
+.menu a.active { color: #a31022; border-bottom: 4px solid #a31022; padding-bottom: 8px; }
+.aboutAH { display: block; background: #f1f1f1;/* padding: 50px 0;*/ text-align: center; }
+.aboutAH img { max-width: 100%; }
+h1 { font-size: 30px; border-bottom: none; margin: 0 0 30px; color: #545454; }
+h2 { font-size: 30px; color: #545454; margin-bottom: 30px; text-align: center; }
+@media(max-width:768px) {
+#banner span { position: relative !important; margin: 15px 10px !important; font-size: 20px !important; color: #333 !important; text-shadow: none !important; text-align: center !important; top: auto !important; right: auto !important }
+h2 em { display: none; }
+.topTours { padding: 30px 0 !important; }
+.topTours .tourInfo { margin-bottom: 20px; }
+.articleFirst { margin-bottom: 20px; }
+.popularArticle .articleRight { margin-bottom: 20px !important; }
+.whyAH { padding: 20px 0 0 !important; }
+.whyAH .whyus ul { margin: 0 -15px !important; }
+.whyAH .whyus li { background-size: 20% !important; padding: 10px 0 10px 70px !important; font-size: 15px !important; }
+}
+@media(min-width:1024px) {
+.tourInfo { height:305px;}	
+}
+.aboutAH p, .topTours p { margin-bottom: 35px !important; }
+.topTours { display: block; padding: 30px 0 50px; }
+.topTours img { border-radius: 4px 4px 0 0; width: 100%;filter: brightness(0.7);}
+.topTours img:hover{filter: brightness(1);}
+.topTourImg{position: relative;}
+.whiteSection{margin-bottom: 30px;    display: block;
+    overflow: hidden;}
+.topTourTitle{position: absolute;
+    top: calc(50% - 17px);
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #414141;
+    width: 300px;
+    left: calc(50% - 150px);text-align: center}
+.tourBlock { display: block; background: #fff; /* border: 1px solid #ccc;*/ overflow: hidden; margin-bottom: 30px;border: 2px solid #f1f1f1; }
+.tourInfo { padding: 15px; border-radius: 0 0 4px 4px; text-align: left !important; position:relative; overflow:hidden; }
+.tourInfo h3 { font-size: 16px; margin: 5px 0 10px; }
+.tourInfo h3 a { text-decoration: none;}
+.tourInfo h3 a:hover { text-decoration: underline;}
+.tourInfo .destinations { color: #777; display: block; height: 33px; margin: 10px 0; }
+.priceBlock { display: block; margin: 15px 0 20px; vertical-align: top; }
+.priceBlock em { font-style: normal; display: inline-block;  margin-right: 5px; font-size:18px; }
+.priceBlock strong { color: #a31022; font-size: 18px; font-weight: normal; }
+.priceBlock strong:before { content: "US$"; display: inline-block;}
+
+.tourInfo .viewDetail { background: #fff; display: block; padding: 10px 15px; text-align: center; width: 100% !important; text-align: center; border-top:1px solid #d1d1d1; position:absolute; left:0; bottom:0; }
+.tourInfo .viewDetail a { color: #a31022; font-size: 16px; text-decoration: none; background: url(https://data.asiahighlights.com/pic/red-arrow.png) no-repeat right; padding-right: 15px; }
+.tourInfo .viewDetail a:hover { text-decoration: underline;}
+.whyAH { display: block; background: #f1f1f1; padding: 50px 0; }
+.whyAH h3 { font-size: 18px; display: block; margin: 30px 0 10px; text-align: left !important }
+.whyAH p { text-align: left !important; }
+.popularArticle { display: block; padding: 30px 0 50px; }
+.popularArticle .articleFirst img { border-radius: 4px 4px 0 0; }
+.popularArticle .articleFirst .articleInfo { background: #f4f4f4; border-radius: 0 0 4px 4px; padding: 15px; }
+.popularArticle .articleFirst h3 { margin: 0 0 15px; font-size: 18px; }
+.popularArticle .articleFirst p { line-height: 20px !important; margin-bottom: 0; }
+.popularArticle .articleRight { margin-bottom: 29px; position: relative }
+.popularArticle .articleRight img { border-radius: 4px; }
+.popularArticle .articleRight span { position: absolute; top: 0; font-size: 18px; color: #fff; }
+/* quick inquiry form */
+#questionBox { margin: 10px 0 15px 0; position: relative; border-radius: 6px; }
+#questionBox .questionContent { display: block; padding: 10px 20px; background: #d1d1d1; border-radius: 6px; }
+#questionBox .interested { font-size: 21px; display: block; text-align: center; margin: 5px 0; text-transform: uppercase; font-weight: bold; color: #a31022; }
+#questionBox .interest-label { font-size: 14px; text-align: center; display: block; margin-bottom: 25px; }
+#questionBox .infoRequired { text-align: center; margin: 22px 0 0 0; display: block; }
+#questionBox .infoRequired input, textarea { width: 100%; font-size: 14px; font-family:  'Open Sans', sans-serif; padding: 10px; background-color: #fff; margin-bottom: 10px; border-radius: 4px; border: none; color: #333; box-shadow: 0 0 2px #999 }
+#questionBox .infoRequired input:focus, textarea:focus { border-color: #a31022; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #000; transition: all 0.5s ease-in-out; border-radius: 10px; }
+#questionBox .infoRequired textarea { height: 150px; }
+#questionBox .sendButton { margin: 15px 0; display: block; background: #a31022; border: none; color: #fff; text-shadow: 0 0 2px #000; text-align: center; border-radius: 4px; padding: 10px; font-size: 15px; width: 100%; }
+#questionBox .infoRequired p { display: none1; }
+#questionBox .infoRequired p { +left: 660px;
+}
+#questionBox .infoRequired p { margin: 0; line-height: 20px !important; margin-bottom: 0px !important; position: relative; text-align: center; }
+#questionBox .infoRequired p label { padding: 0; margin: 0; position: absolute; top: 10px; left: 10px; cursor: text; font-size: 14px; color: #777; }
+#questionBox .infoRequired .des label { text-align: left; }
+/* submit checking */
+#questionBox .infoRequired p .arrowDownTest label { line-height: 20px; position: relative; left: 0; margin: 0; padding: 0; top: 0; }
+#questionBox .infoRequired p .arrowDownTest { background-color: #FFFFFF; border: 1px solid #999999; color: #A31022; display: block; padding: 3px 4px; position: absolute; z-index: 11000; left: 10px; top: -22px; }
+#questionBox .infoRequired p .arrowDown { left: 4px; position: absolute; top: 26px; }
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+/* added by Mercier 20161110 */
+.bookingSteps { display: block; position: absolute; top: -290px; color: #fff; margin-left: 60px }
+.bookingSteps .steps { width: 180px; height: 180px; display: inline-block; background: rgba(0,0,0,.7); border-radius: 50%; text-align: center; font-size: 16px; padding: 10px 24px; margin-right: 40px; }
+.bookingSteps .steps strong { display: block; font-size: 30px; font-weight: normal; margin-bottom: 10px; }
+.bookingSteps .tailorMake { display: block; font-size: 25px; float: right; margin-top: 40px; text-shadow:0 0 5px #000; }
+.bookingSteps .tailorMake span { display: block !important; position: static !important }
+.bookingSteps .tailorMake span a { color: #fff; font-family: Arial, Helvetica, sans-serif; display: block; font-size: 16px; background: #a31022;  border-radius: 4px; padding: 10px 0; text-align: center; text-transform: uppercase; text-shadow: none; font-weight: bold; width: 240px; margin: 15px auto; text-decoration: none; }
+.bookingSteps .tailorMake span a:hover .fa { margin-left: 10px; }
+.bookingSteps .tailorMake span .fa { font-size: 130%; margin-left: 5px; font-weight: bold; }
+@media(max-width:768px) {
+.bookingSteps {/* position: relative !important; background: #555; width: 100% !important; margin-left: 0 !important; top: 0 !important; margin-top: 15px; padding: 20px;*/ display: none !important;}
+.bookingSteps .steps { width: auto !important; height: auto !important; display: block !important; background: none !important; padding: 10px !important; text-align: left !important; font-size: 14px !important; }
+.bookingSteps .steps strong { display: block !important; margin-bottom: 0 !important; font-size: 20px !important; float: left !important; margin: 5px 15px 0 0; }
+.bookingSteps .tailorMake { float: none !important; text-align: center !important; margin-top: 20px !important; }
+}
+.TopReasons { background: #f1f1f1; padding-bottom: 30px; padding-top: 30px; margin-bottom: 30px; }
+.TopReasons h2 { margin-top: 0 !important; text-align: left; }
+.TopReasons li { line-height: 20px; margin-bottom: 20px; font-size: 14px; }
+.TopReasons li .orderNum { background: #a31022; width: 20px; height: 20px; display: block; float: left; text-align: center; color: #fff; margin: 5px 15px 20px 0 }
+.TopReasons li:last-child { text-align: right; }
+.TopReasons li:last-child a { background: url(https://data.asiahighlights.com/pic/red-arrow.png) no-repeat right; padding-right: 15px; text-decoration: underline; }
+.TopReasons li:last-child a:hover { text-decoration: none; }
+/* page footer tailor made block */
+.footerTailor { background: url(https://data.asiahighlights.com/css/bg/bg-tailor-longer.png) no-repeat right #daceb9; display: block; padding: 15px 0; margin: 25px 0 0; overflow: hidden; color: #333; }
+.footerTailor .textBlock { width: 60%; float: left; display: block; margin-left: 10%; text-align: center; font-size: 20px; }
+.footerTailor .textBlock span { display: block; background: #a31022 none repeat scroll 0 0; border-radius: 4px; letter-spacing: 0.03em; margin: 30px auto 10px; padding: 10px 10px 12px; width: 280px; font-size: 18px; }
+.footerTailor .textBlock span a { color: #fff; text-decoration: none; }
+.footerTailorShort { background: url(https://data.asiahighlights.com/css/bg/bg-tailor-shorter.png) no-repeat right; display: block; padding: 15px 0; margin: 25px 0 0; overflow: hidden; color: #333; border-radius: 4px; }
+.footerTailorShort .textBlock { width: 70%; float: left; display: block; text-align: center; font-size: 20px; }
+.footerTailorShort .textBlock span { display: block; background: #a31022 none repeat scroll 0 0; border-radius: 4px; letter-spacing: 0.03em; margin: 30px auto 10px; padding: 10px 10px 12px; width: 280px; }
+.footerTailorShort .textBlock span a { color: #fff; font-size: 18px; }
+@media(max-width:750px) {
+.footerTailor { background: #daceb9 !important; }
+.footerTailorShort { background: #daceb9 !important; }
+.textBlock { width: 100% !important; float: none !important; font-size: 14px !important; margin-left: 0 !important; }
+.textBlock span { padding: 5px 0 7px !important; }
+.textBlock span a { font-size: 14px !important; width: 200px !important }
+}
+/* top tours */
+.tourBox { border: 1px solid #d1d1d1; display: block; margin-bottom: 35px; position: relative; }
+.tourBox .withCover { width: 358px; height: 303px; display: none; background: rgba(0,0,0,.7); position: absolute; left: 0; top: 0; padding: 25px; color: #fff; }
+.tourBox .withCover .viewMore { display: block; margin: 25px auto; width: 130px; text-align: center; background: #a31022; border-radius: 4px; }
+.tourBox .withCover .viewMore a { display: block; color: #fff; text-decoration: none; padding: 5px; font-size: 14px; }
+.tourBox .withCover .viewMore .fa { font-size: 115%; margin-left: 5px; }
+.tourBox .withCover .tourDestinations { display: block; margin-bottom: 15px; color: #999; }
+.tourBox img { width: 100%; }
+.tourBox .recommendIcon { display: block; background: url(https://data.asiahighlights.com/pic/recommend-icon.png?01) no-repeat; width: 113px; height: 22px; position: absolute; left: -5px; top: 15px; }
+.tourBox .namePrice { background: #fff; padding: 15px; display: block; overflow: hidden; }
+.tourBox .namePrice h2 { display: block; margin: 0 0 10px; text-align: left; line-height: 20px; }
+.tourBox .namePrice h2 a { text-decoration: none; font-size: 16px; }
+.tourBox .namePrice span { display: block; width: 140px; float: right; }
+.tourBox .namePrice span b { font-weight: normal; display: inline-block; float: left; }
+.tourBox .namePrice span em { font-style: normal; color: #a31022; font-size: 16px; margin-left: 10px; display: inline-block; float: left; }
+.tourBox .namePrice span strong { font-weight: normal; color: #a31022; font-size: 28px; display: inline-block; float: left; margin-top: -5px; }
+.fullTourList { border: 1px solid #d1d1d1; display: block; margin: 10px 0 30px; height: 228px; padding-right: 20px; position:relative }
+.fullTourList .newIcon { display: block; background: url(https://data.asiahighlights.com/pic/new-icon.png?01) no-repeat; width: 113px; height: 22px; position: absolute; left: -5px; top: 15px; }
+.fullTourList h2 { text-align: left; margin: 15px 0 15px; }
+.fullTourList p { line-height: 20px !important; }
+.fullTourList h2 a { font-size: 20px; }
+.fullTourList img { float: left; margin: 0 35px 0 0; }
+.fullTourList .tourDestinations { display: block; margin-bottom: 15px; color: #999; }
+.fullTourList .viewMore { display: block; float: right; width: 130px; text-align: center; background: #a31022; border-radius: 4px; }
+.fullTourList .viewMore a { display: block; color: #fff; text-decoration: none; padding: 5px; font-size: 14px; }
+.fullTourList .viewMore .fa { font-size: 115%; margin-left: 5px; }
+.fullTourList .listPrice { width: 150px; float: left; display: block; }
+.fullTourList .listPrice b { font-weight: normal; display: inline-block; float: left; }
+.fullTourList .listPrice em { font-style: normal; color: #a31022; font-size: 16px; margin-left: 10px; display: inline-block; float: left; }
+.fullTourList .listPrice strong { font-weight: normal; color: #a31022; font-size: 28px; display: inline-block; float: left; margin-top: -5px; }
+@media(max-width:768px) {
+.fullTourList { height:auto !important;}	
+.listInfo { padding:20px; overflow:hidden;}
+.fullTourList img { float: none !important; width:100%; display: block;}
+}
+/* after question form */
+.moreAbout { display: block; font-size: 18px; margin: 25px 0 15px; }
+.infoList { background: #d1d1d1; border-radius: 0 4px 4px 0; font-size: 14px; margin-bottom: 20px; overflow: hidden; padding-top: 10px; }
+.infoList:hover { background: #d9d9d9 none repeat scroll 0 0; }
+.infoList a { text-decoration: none; }
+.infoList strong { font-weight: normal; }
+.infoList img { border-radius: 4px 0 0 4px; float: left; margin-right: 10px; margin-top: -10px; width: 100px; }
+
+.getTA { display: block; margin-bottom:35px 0 20px;}
+.widSSPData { border-radius:4px !important;}
+#CDSWIDSSP { width:auto !important;}
+.footTailor { display: block; margin:35px auto; width:200px; background:#a31022; text-align:center; border-radius:4px;}
+.footTailor a { display: block; padding:10px 0; text-decoration: none; color:#fff; font-size:18px;}
+@media(max-width:768px) {
+.footTailor { position:fixed; bottom:-35px; left:0; width:100% !important; border-radius:0!important; z-index:9999;}	
+}
+/* tailor new */
+.tourPrice { border:1px solid #d1d1d1; background:#f1f1f1; border-radius:4px; padding:30px 25px; font-size:14px; }
+.sendButton {
+    background: #a31022 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 10px 15px 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.tourPrice .basedOn { display: block; text-align: center;}
+.tourPrice .inquiryNow { text-align:center; display: block; border-radius:4px;  margin:25px auto 0; }
+.tourPrice .inquiryNow input {background:#a31022; border:0px; color:#fff; text-decoration: none; padding:10px 0; font-size:18px;min-width: 100px;width: 90%}
+.tourPrice .inquiryNow .fa {color:#fff; font-size:120%; margin-left:15px;}
+.tourPrice .inquiryNow:hover { background:#800D1C}
+.tourPrice .inquiryNow:hover input{ background:#800D1C}
+.tourPrice b { color:#a31022; margin:0 10px 10px; font-size:35px; font-weight: normal; display: inline-block;}
+.tourPrice .from { display:inline-block; float: left; margin-top:5px;}
+select{display: block;font-size: 16px;padding:8px 5px 8px 10px;width: 100%;margin-bottom:12px;border: 1px
+    solid #d1d1d1;border-radius: 2px;background: url(/pic/select-tag.png) no-repeat 96% center #fff;-webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none; background-size: 15px;}
+input{    display: block;
+    font-size: 18px;
+    padding: 8px 5px 8px 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px
+ solid #d1d1d1;
+    border-radius: 4px;
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    font-size: 18px;}
+    input.FullName {
+        background: url(//data.chinahighlights.com/pic/input-name.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.EmailAddress {
+        background: url(//data.chinahighlights.com/pic/input-email.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.InquiryCalendar {
+        background: url(//data.chinahighlights.com/pic/top10/tour-calendar.png) no-repeat 15px;
+        padding-left: 50px;background-color: #fff;
+    }
+    input.Inquiryphone {
+        background: url(https://data.chinahighlights.com/pic/top10/tour-form-phone-tag-bg.png) no-repeat 15px;
+        padding-left: 50px;
+        width: 100%;background-color: #fff;
+    }
+    input, textarea {
+        background-color: #fff;
+        border: medium none;
+        border-radius: 4px;
+        box-shadow: 0 0 2px #999;
+        color: #333;
+        font-size: 16px;
+        padding: 10px;
+        line-height: 22px;
+        font-family: 'Open Sans', sans-serif;
+    }
+#tailorAds { display: block; background:#fff;  padding:20px 0; overflow: hidden;}
+#tailorAds2 { display: block; background:#fff;  padding:20px 0; overflow: hidden;background: url(https://data.asiahighlights.com/image/tour/vietnam/form-background.jpg) no-repeat;background-size: 100%;}
+.tailorText { width:1170px; display: block; margin:10px auto; overflow: hidden; padding-bottom:25px; padding-top:50px;}
+.mainText { display: block; width:550px; float: left; font-size:28px; padding-top:15px;}
+.travelAdvisor { display: block; width: 128px; float: left; margin-right:50px;}
+.callTo { display: block; width:400px; float: right; text-align:center; font-size:16px;}
+.callTo strong { display: block; margin-top:10px; font-size:26px; color:#000; font-weight: normal;}
+.tailorBtn { display: block; background:#a31022; border-radius:4px;}
+.tailorBtn a { display: block; color:#fff; text-align:center; padding:10px; margin-top:15px; text-transform:capitalize; text-decoration:  none;}
+.tailorBtn:hover .fa{ margin-left:15px;}
+.tailorBtn .fa { font-size:150%; display: inline-block; vertical-align: middle; margin-left:5px; margin-top:-5px;}
+@media(max-width:768px){
+.tailorText { width:90%;}	
+.mainText { width:100% !important; float: none !important; text-align:center; font-size:24px;}
+.callTo { width:80% !important; margin:20px auto !important; float: none !important;}
+.tailorBtn { margin:15px 50px;}
+}
+/* by Mercier 2018-8-9 */
+.extraInfo { display: block; background:#f1f1f1; padding:50px 0;}
+.infoNav li { font-size:16px; border-bottom:1px solid #d1d1d1;}
+.infoNav li:first-child { border-top:1px solid #d1d1d1;}
+.infoNav li a { text-decoration: none; display: block; padding:15px 0;}
+.infoNav li.active { background:url(https://data.asiahighlights.com/pic/red-arrow-13.png) no-repeat right;}
+.extraInfo h3 { font-size:22px; margin:40px 0 20px; font-weight:300;}
+.extraInfo h3:first-child { margin-top:0 !important;}
+.extraInfo .photoBox { display: inline-block; float: right; margin:0 0 20px 20px;}
+.extraInfo .photoBox img { border-radius:4px;}
+.reviews { display: block; margin:50px 0;}
+.reviews .comments { display:block; color:#999; font-style: italic; font-size:16px; line-height:30px;}
+.reviews .customerInfo { display: block; margin-top:15px;}
+.reviews .customerInfo em { color:#a31022;}
+.reviews .tpIcon { display: block; margin-top:25px; text-align:right;}
+/*20200319 ling*/
+.fixedNav .priceBlock {border: 1px solid #d1d1d1;background: #f1f1f1;border-radius: 4px;padding: 30px 25px;font-size: 14px;}
+.topTourTitle a,.topTourTitle a:hover { text-decoration:none; color:#fff;}
+.topTourTitle span { display:block; font-size:14px;}

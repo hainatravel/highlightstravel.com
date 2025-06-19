@@ -1,0 +1,1 @@
+<div id="content_main"><?php echo str_replace('textarea##','textarea',$detail->ic_content); ?></div>

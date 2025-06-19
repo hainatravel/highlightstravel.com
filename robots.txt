@@ -1,0 +1,4 @@
+User-agent:* 
+Disallow: /index.php/*
+Disallow: /travel-agents
+Disallow: /ajax_get/getads/

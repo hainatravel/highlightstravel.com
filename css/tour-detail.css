@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+#banner { display: block; position: relative; }
+#banner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; bottom: 0; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; margin: 0; }
+#banner h1.AboutUs { color: #fff; display: block; font-family: fontawesome; font-size: 30px; font-weight: normal; left: 0; top: -365px; line-height: 37px; position: absolute; text-align: left; width: 600px; background: none; border-bottom: none; }
+/*info detail*/
+.InformationDetail { background: #f1f1f1; margin-top: -32px; padding-top: 30px; }
+.InfoDetail { margin-top: 30px; }
+ul.ArticleList { margin-bottom: 20px;  border-top: 3px solid #c6162b;  }
+ul.ArticleList li.ListTop { border-bottom: 1px #d6d6d6 solid; font-size: 12px;}
+ul.ArticleList li.ListTop a { text-decoration: none; }
+ul.ArticleList li.ListTop a:hover { color: #c5162b; }
+ul.ArticleList li { border-bottom: 1px #d6d6d6 solid; font-size: 12px; background: url(https://data.asiahighlights.com/image/info-list.png) no-repeat 15px center; padding:10px 0 10px 38px;  }
+ul.ArticleList li.cityName { background:#d1d1d1; font-size:16px;padding-left:15px !important}
+.learnMore { text-transform:uppercase; color:#a31022; text-decoration: none !important;}
+.learnMore:HOVER { text-decoration: underline !important}
+.learnMore i { font-size:130%;}
+.infoSuggested { display: block; position:relative; margin-bottom:25px;}
+.infoSuggested img { border-radius:4px;}
+.infoSuggested .infoBox { background:rgba(0,0,0,.8); display: block; position:absolute; bottom:0; left:0; width:100%; border-radius:0 0 4px 4px; color:#fff; padding:20px 25px;}
+.infoBox h2 { color:#fff !important; margin:0 0 20px !important; font-size:20px !important;}
+.infoSuggested .infoBox ul li { background:url(https://data.asiahighlights.com/pic/white-squre.png) no-repeat left; padding-left:20px; line-height:20px; margin-bottom:10px; font-size:14px;}
+.infoSuggested .infoBox ul li a { color:#fff;}
+.infoSuggested .infoBox .learnMore { display: block; text-align:right; color:#fff !important;}
+
+
+.Information h2.RedBorder { border-left: 5px solid #c6162b; padding-left: 20px; text-align: left; }
+.ArticleInfo { padding-bottom: 10px; }
+table.InfoTable { border-top: 3px solid #d6d6d6; text-align: center; width: 100%; background: #fff; }
+table th, td { font-size: 14px; text-align: center; padding-bottom: 10px; padding-top: 10px; border: 1px solid #d6d6d6; }
+table th .TrainNumber { font-size: 15px; text-align: center; padding-bottom: 10px; padding-top: 10px; color: #c7152b; }
+.infoList { background: #fff none repeat scroll 0 0; border-radius: 0 4px 4px 0; font-size: 14px; margin-bottom: 20px; width: 384px; padding-top: 10px; padding-left: 0; margin-right: 15px; }
+.infoList a { text-decoration: none; }
+.infoList img { border-radius: 4px 0 0 4px; float: left; margin-right: 10px; margin-top: -10px; width: 100px; }
+.infoList strong { font-weight: normal; }
+.infoList .ArticleTitle { width: 300px; }
+.inpageTailor { margin: 0 0 10px 0; padding-top: 15px;}
+.inpageTailor .tailorForm .tailorContent {font-size: 17px; line-height: inherit; }
+.tailorButton a { width: 240px; border: 2px solid #a31022; border-radius: 4px; display: block; text-decoration: none; font-size: 20px; padding: 5px 10px 20px; text-align: center; position: relative; color: #555 }
+.tailorMadeButton a { width: 240px; border: 2px solid #a31022; border-radius: 4px; display: block; text-decoration: none; font-size: 20px; padding: 5px 10px 20px; text-align: center; position: relative; color: #555;left: 35px;
+    top: 75px; }
+.tailorButton a:hover { background: #a31022; color: #fff; transition: all 0.5s ease-in-out; }
+.tailorButton .promiseWords { font-size: 11px; display: block; margin-top: -21px; margin-left: 8px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; color: #000; }
+
+.tailorButton .promiseWords:hover { color: #fff }
+
+.tailorMadeButton a:hover { background: #a31022; color: #fff; transition: all 0.5s ease-in-out; }
+.tailorMadeButton .promiseWords { font-size: 11px; display: block; margin-top: -21px; margin-left: 8px; padding-left: 15px; font-family: Arial, Helvetica, sans-serif; color: #000;  margin-left: 40px;
+    margin-top: 55px;}
+
+.tailorMadeButton .promiseWords:hover { color: #fff }
+
+.TailorPhone { margin: 30px 0 0; color: #999;  position: relative; font-size: 15px; }
+.numberLeft { display: block; margin-top:10px; color:#999; }
+.telNo { color:#a31022; }
+.telNo strong { font-size: 16px; font-weight: normal; color: #a31022 }
+#fp { font-size: 14px; float: left; cursor: pointer; display: block; margin-top: 2px; }
+.moretelNo ul { margin: 0; }
+.moretelNo ul li { list-style: none; font-size: 14px; line-height: 22px!important; cursor: pointer; padding-left: 6px!important; border-bottom: 1px solid #fff; border-top: 1px solid #fff; background: none!important; width: auto!important; }
+.moretelNo ul li:hover { background: #f5f5f5; border-bottom: 1px solid #f1f1f1; border-top: 1px solid #f1f1f1; }
+.tourPublishers .publishintros { font-size: 11px; line-height: 22px; margin-top: 30px; }
+.publishPic { margin-right: 15px; }
+.publishintros ul.author li { list-style: none; line-height: 25px; }
+.publishintros ul.author a.email { text-decoration: underline; background: url(https://data.asiahighlights.com/image/travelguide/city-guide/email.gif) no-repeat; padding-left: 30px; padding-bottom: 10px; }
+.publishintros ul.author a.feedback { text-decoration: underline; background: url(https://data.asiahighlights.com/image/travelguide/city-guide/message.gif) no-repeat; padding-left: 30px; padding-bottom: 10px; }
+input.depart { background:url(https://data.asiahighlights.com/pic/calendar-icon.png) no-repeat right center;}
+span.ageInfo { font-size:12px; font-family: arial; text-align: center; display: block; margin:5px 0 10px;}
+
+/*About Us*/
+h2.AboutUs { font-size: 37px; font-family: Trebuchet MS; }
+#banner h1.AboutUs { color: #fff; display: block; font-family: Trebuchet MS; font-size: 45px; font-weight: normal; left: 0; top: -400px; line-height: 55px; position: absolute; text-align: left; width: 765px; background: none; border-bottom: none; text-shadow: 0 1px 5px #000; }
+.MeetTeam { text-align: center; }
+.TeamMember { margin-top: 25px; }
+.TeamMember p { margin-top: 20px; }
+.TeamMember img { padding-left: 90px; margin-bottom: 20px; }
+.Name { font-family: Trebuchet MS; font-size: 20px; }
+.occupation { font-family: Trebuchet MS; font-size: 16px; color: #a8a8a8; }
+.BookTour { font-style: italic; text-align: center; font-size: 15px; font-weight: bold; margin-top: 20px; }
+.BookButton { color: #fff; background-color: #c5162b; font-size: 22px; font-family: Trebuchet MS; text-align: center; border-radius: 4px; padding: 8px 15px; margin-top: 20px; }
+.BookButton:hover { box-shadow: 0 0 10px #000; transition: all 0.5s ease-in-out 0s; }
+.MediaMore { padding-top: 15px; margin-top: 15px; }
+.SocialMedias { margin-top: 15px; }
+ol.ListNumber li { font-size: 14px; margin-bottom: 8px; list-style: none; }
+ul.InfoList li { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/square-red.gif") no-repeat scroll left 7px / 6px auto; line-height: 20px; margin-bottom: 8px; padding-left: 20px; font-size: 14px }
+#Topbanner { display: block; position: relative; }
+#Topbanner h1 { position: absolute; background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0; font-size: 28px; top: -71px; width: 100%; padding: 15px; text-align: center; left: 0; color: #fff; border-radius: 4px 4px 0 0; }
+#Topbanner h1 { color: #fff; display: block; font-family: fontawesome; font-size: 45px; font-weight: normal; left: 0; top: -440px; line-height: 60px; position: absolute; text-align: left; width: 800px; background: none; border-bottom: none; text-shadow: 0 1px 5px #000; }
+@media(max-width:758px) {
+#banner h1 { position: relative !important; background: none !important; top: 0 !important; color: #545454 !important; font-size: 18px !important; padding: 15px 0 !important; margin:0 !important; }
+#Topbanner h1 { position: relative !important; background: none !important; top: 0 !important; color: #545454 !important; font-size: 18px !important; text-align: left !important; padding: 15px 0 !important; margin: auto -15px !important; text-shadow: none !important; }
+}
+.TourInfo { margin-top: 25px; border-bottom: none; }
+.tourHighlights ul { height: 100%; overflow: hidden; }
+.tourHighlights ul li { background: rgba(0, 0, 0, 0) url(https://data.asiahighlights.com/pic/square-red.gif) no-repeat scroll left 7px / 6px auto; line-height: 20px; margin-bottom: 5px; padding-left: 20px; }
+h2 { color: #333 !important; font-size: 23px !important; margin: 35px 0 30px !important; display: block; }
+h2.highlights { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/itinerary.png") no-repeat scroll left center / 22px auto; padding-left: 35px; text-align: left; }
+h2.includeIcon { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/include.png") no-repeat scroll left 5px / 22px auto; padding-left: 35px; text-align: left; }
+h2.costIcon { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/cost.png") no-repeat scroll left center / 22px auto; padding-left: 35px; text-align: left; }
+h2.HotelUes { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/hotel.png") no-repeat scroll left center / 22px auto; padding-left: 35px; text-align: left; }
+h2.itineraryIcon { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/itinerary.png") no-repeat scroll left center / 22px auto; padding-left: 35px; text-align: left; }
+.whatIncluded { height: 100%; overflow: hidden; }
+.whatIncluded li { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/green-mark-17x16.png") no-repeat scroll left 5px; float: left; line-height: 20px; margin-bottom: 5px; padding: 0 20px 0 30px; width: 50%; }
+.priceTable { border: 1px solid #d1d1d1; margin-bottom: 20px; text-align: center; width: 100%; }
+.priceTable th { background: #e8e8e8 none repeat scroll 0 0; border-bottom: 1px solid #d1d1d1; font-size: 16px; font-weight: normal; padding: 8px 10px; text-align: center; }
+.priceTable td { border-bottom: 1px solid #d1d1d1; font-size: 14px; padding: 5px 10px; }
+.priceTable td a { color: #a31022; text-decoration: none; }
+.tourDates .tourDays { color: #a31022; margin-right: 10px; text-transform: uppercase; }
+.tourDates { clear: both; display: block; font-size: 18px; line-height: 20px; margin: 30px 0 10px; }
+.hotelImage img { border: 1px solid #d1d1d1; padding: 5px; }
+.HotelInfo { border-bottom: 1px dashed #d1d1d1; margin-bottom: 20px; padding-bottom: 30px; position: relative; }
+.HotelInfo .viewMore { display: block; position: absolute; bottom: 10px; right: 0; width: 100px; padding: 3px; background: url(https://data.asiahighlights.com/pic/white-arrow-s.png) no-repeat 80px center #a31022; text-align: center; border-radius: 4px; text-transform: uppercase; }
+.HotelInfo .viewMore a { color: #fff; text-decoration: none; }
+.HotelInfo .HotelName { color: #1b5fac; font-size: 16px; display: block; margin-bottom: 15px; }
+.noteIcon { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/note.png") no-repeat scroll left center / 22px auto; padding-left: 35px; }
+.inpageNav { display: block; margin-bottom: 30px; }
+.inpageNav li { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/gray-arrow-right.png") no-repeat scroll left 7px; font-size: 18px; margin-bottom: 10px; padding-left: 25px; border-bottom: 1px dashed #d1d1d1; padding-bottom: 10px; }
+.inpageNav li a { text-decoration: none; }
+/*iquiry box by candice song*/
+.tourBox { background: #efefef url(https://data.asiahighlights.com/pic/form-head.png) no-repeat top; border: 1px solid #d1d1d1; border-radius: 5px; padding: 0 25px; margin-bottom: 35px; }
+.tourBoxTailor { background: #efefef url(https://data.asiahighlights.com/pic/form-head.png) no-repeat top; border: 1px solid #d1d1d1; border-radius: 5px; padding: 0 25px; margin-bottom: 35px; padding-bottom: 20px;}
+ul.tourList { padding: 15px 0 0; }
+ul.tourList li { color: #fff; font-size: 13px; list-style: outside none none; margin: 0 0 5px; }
+.promoPrice { color: #fff; font-size: 12px; margin: 0 0 5px; padding: 0 0 0 20px; }
+span.moneyfrom { color: #fff; font-size: 14px; vertical-align: 1.9em; }
+span.moneyTyp { color: #fff; font-size: 20px; text-shadow: 0 0.04em 0.04em #545454; vertical-align: 1.1em; }
+span.bestPrice { color: #fff; font-size: 44px; text-shadow: 0 0.04em 0.04em #545454; }
+a.priceLink { padding: 0 20px 0 0; }
+.promoPrice a { color: #fff; }
+.promoPrice a:hover { color: #fff; text-decoration: underline; }
+.letterrow { border-top: 1px solid #f1f1f1; color: #fff; font-size: 16px; padding-top: 8px; text-align: center; margin-bottom: 40px; }
+.departTime { padding-bottom: 15px; }
+span.title { display: block; font-size: 18px; font-family: arial; margin: 5px 0 8px;}
+.traveller select, input.depart { width: 100%; border: 1px solid #d1d1d1; border-radius: 4px; padding: 8px 10px; }
+.bookTour { display: block; overflow: hidden; margin: 15px auto; width: 80%; }
+.bookTour input { background: url(https://data.asiahighlights.com/pic/dot-arrow.png) no-repeat 93% center #a31022; font-size: 20px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #fff; border: none; padding: 5px 10px; border-radius: 4px; }
+.tripNotes h3 { font-size: 18px; display: block; margin: 0 0 15px; }
+@media(max-width:768px) {
+.infoList { width: 100%; }
+.ViewMore { margin-bottom: 15px; }
+.traveller select { height: 35px; }
+.bookTour { width: 100% !important; }
+#Topbanner h1 { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border-bottom: medium none; color: #fff; display: block; font-family: fontawesome; font-size: 22px; font-weight: normal; left: 0; line-height: 28px; position: absolute; text-align: left; text-shadow: 0 1px 5px #000; top: -150px; width: 330px; }
+.listInfo { margin-bottom:20px !important;}
+.ratedTours .tourInfo { margin-bottom:20px !important;}
+.tailor-make { display: block; text-align:center;}
+.tailor-make img { display: inline;}
+.tailorButton a { width:100% !important;}
+.tailorMadeButton a { width:100% !important;}
+}
+/* quick inquiry form */
+#questionBox { margin: 10px 0 15px 0; position: relative; border-radius: 6px; }
+#questionBox .questionContent { display: block; padding: 10px 20px; background: #d1d1d1; border-radius: 6px; }
+#questionBox .interested { font-size: 21px; display: block; text-align: center; margin: 5px 0; text-transform: uppercase; font-weight: bold; color: #a31022; }
+#questionBox .interest-label { font-size: 14px; text-align: center; display: block; margin-bottom: 25px; }
+#questionBox .infoRequired { text-align: center; margin: 22px 0 0 0; display: block; }
+#questionBox .infoRequired input, textarea { width: 100%; font-size: 14px; font-family:  'Open Sans', sans-serif; padding: 10px; background-color: #fff; margin-bottom: 10px; border-radius: 4px; border: none; color: #333; box-shadow: 0 0 2px #999 }
+#questionBox .infoRequired input:focus, textarea:focus { border-color: #a31022; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #000; transition: all 0.5s ease-in-out; border-radius: 10px; }
+#questionBox .infoRequired textarea { height: 150px; }
+#questionBox .sendButton { margin: 15px 0; display: block; background: #a31022; border: none; color: #fff; text-shadow: 0 0 2px #000; text-align: center; border-radius: 4px; padding: 10px; font-size: 15px; width: 100%; }
+#questionBox .infoRequired p { display: none1; }
+#questionBox .infoRequired p { +left: 660px;
+}
+#questionBox .infoRequired p { margin: 0; line-height: 20px !important; margin-bottom: 0px !important; position: relative; text-align: center; }
+#questionBox .infoRequired p label { padding: 0; margin: 0; position: absolute; top: 10px; left: 10px; cursor: text; font-size: 14px; color: #777; }
+#questionBox .infoRequired .des label { text-align: left; }
+/* submit checking */
+#questionBox .infoRequired p .arrowDownTest label { line-height: 20px; position: relative; left: 0; margin: 0; padding: 0; top: 0; }
+#questionBox .infoRequired p .arrowDownTest { background-color: #FFFFFF; border: 1px solid #999999; color: #A31022; display: block; padding: 3px 4px; position: absolute; z-index: 11000; left: 10px; top: -22px; }
+#questionBox .infoRequired p .arrowDown { left: 4px; position: absolute; top: 26px; }
+a:link { text-decoration: none; }
+a:hover { text-decoration: none; color: #b61326; }
+.noteInfo { margin: 0 15px; }
+.cityMap { position: relative; }
+.cityMap .flightTimes { background: #e6e5e5; border-radius: 4px; border: 1px solid #d1d1d1; width: 240px; height: 200px; display: block; position: absolute; left: -10px; top: 220px; padding: 15px; }
+.cityMap .flightTimes span { font-style: italic; font-family: Georgia, "Times New Roman", Times, serif; font-size: 15px; display: block; margin-bottom: 15px; }
+.cityMap .flightTimes ul { width: 49%; float: left; display: block; }
+.cityMap .flightTimes ul li { line-height: 20px; margin-bottom: 5px; }
+.cityMap .flightTimes ul li:first-child { color: #0e64ad; margin-bottom: 8px; }
+.photoInfo { display: block; position: relative; }
+.photoInfo .infoTitle { position: absolute; bottom: 0; left: 0; width: 100%; background: rgba(0,0,0,.5); padding: 8px; font-size: 18px; color: #fff; display: block; }
+.photoInfo img { border-radius: 4px 4px 0 0; width:100%; }
+.listInfo { background: #f1f1f1; padding: 20px; border-radius: 0 0 4px 4px; }
+.listInfo li { background: url(https://data.asiahighlights.com/pic/gray-square.png) no-repeat left; padding-left: 20px; line-height: 30px; }
+/* recommend tours */
+.ratedTours { background: #f1f1f1; padding: 30px 0 50px; margin-bottom: 20px; }
+.ratedTours img { border-radius: 4px 4px 0 0; }
+.tourInfo { background: #fff; padding: 20px; border-radius: 0 0 4px 4px; margin-bottom:15px; }
+.tourPhoto { position:relative;}
+.tourPhoto img { width:100%;}
+.tourPhoto .dayTag { background:url(https://data.asiahighlights.com/pic/days-tag.png) no-repeat; display: block; width:67px; height:65px; text-align:center; color:#fff; position:absolute; right:0; bottom:0; font-size:14px; padding-top:10px; line-height:15px;}
+.tourInfo .destinations { color: #777; display: block; height: 33px; margin: 10px 0 20px; }
+.tourInfo .viewDetail a { background: rgba(0, 0, 0, 0) url("https://data.asiahighlights.com/pic/red-arrow.png") no-repeat scroll right center; color: #a31022; font-size: 15px; padding-right: 15px; text-decoration: none; text-align:right; display: block;}
+/* other asia countries */
+.otherCountry { display: block; margin:25px 0;}
+.countryLink { display: block; float: left; width:20%; text-align:center}
+.countryLink a { display: block;}
+.vnMap { background:url(https://data.asiahighlights.com/pic/vn-map-gray.png) no-repeat center; padding-top:150px;}
+.vnMap:hover { background:url(https://data.asiahighlights.com/pic/vn-map.png) no-repeat center;}
+.cbMap { background:url(https://data.asiahighlights.com/pic/cb-map-gray.png) no-repeat center; padding-top:150px;}
+.cbMap:hover { background:url(https://data.asiahighlights.com/pic/cb-map.png) no-repeat center;}
+.laMap { background:url(https://data.asiahighlights.com/pic/la-map-gray.png) no-repeat center; padding-top:150px;}
+.laMap:hover { background:url(https://data.asiahighlights.com/pic/la-map.png) no-repeat center;}
+.maMap { background:url(https://data.asiahighlights.com/pic/ma-map-gray.png) no-repeat center; padding-top:150px;}
+.maMap:hover { background:url(https://data.asiahighlights.com/pic/ma-map.png) no-repeat center;}
+.thMap { background:url(https://data.asiahighlights.com/pic/th-map-gray.png) no-repeat center; padding-top:150px;}
+.thMap:hover { background:url(https://data.asiahighlights.com/pic/th-map.png) no-repeat center;}
+.photoTxt { display: block; text-align:center; margin-top:10px; font-style:italic;} /* for guide info */
+.tourPhotoL { display: block; margin:10px 0; position:relative}
+.tourPhotoL img { border-radius:4px;}
+.tourPhotoL .photoTitle { position:absolute; left:0; bottom:15px; border-radius:0 4px 4px 0; background:rgba(0,0,0,.7); padding:8px 10px; color:#fff; font-size:14px;}
+/* page footer tailor made block */
+.footerTailor { background: url(https://data.asiahighlights.com/css/bg/bg-tailor-longer.png) no-repeat right #daceb9; display: block; padding: 15px 0; margin: 25px 0 0; overflow: hidden; color: #333; }
+.footerTailor .textBlock { width: 60%; float: left; display: block; margin-left: 10%; text-align: center; font-size: 20px; }
+.footerTailor .textBlock span { display: block; background: #a31022 none repeat scroll 0 0; border-radius: 4px; letter-spacing: 0.03em; margin: 30px auto 10px; padding: 10px 10px 12px; width: 280px; font-size: 18px; }
+.footerTailor .textBlock span a { color: #fff; }
+.footerTailorShort { background: url(https://data.asiahighlights.com/css/bg/bg-tailor-shorter.png) no-repeat right; display: block; padding: 15px 0; margin: 25px 0; overflow: hidden; color: #333; border-radius: 4px; background-size:100%; }
+.footerTailorShort .textBlock { width: 70%; float: left; display: block; text-align: center; font-size: 20px; }
+.footerTailorShort .textBlock span { display: block; background: #a31022 none repeat scroll 0 0; border-radius: 4px; letter-spacing: 0.03em; margin: 30px auto 10px; padding: 10px 10px 12px; width: 280px; }
+.footerTailorShort .textBlock span a { color: #fff; font-size: 18px; }
+@media(max-width:750px) {
+.footerTailor { background:#daceb9 !important;}	
+.footerTailorShort  { background:#daceb9 !important;}
+.textBlock { width:100% !important; float: none !important; font-size:14px !important; margin-left:0 !important;}	
+.textBlock span { padding:5px 0 7px !important;}
+.textBlock span a { font-size:14px !important; width:200px !important}
+}
+/* inquiry button and highlights box */
+.highlightsBox { box-shadow:0 0 5px #777; border-radius:4px; padding:15px; margin-bottom:25px;}
+.highlightsBox h2 { margin-top:0 !important;}
+.inquiryButton { display: block; margin: 35px auto; width:250px; text-align:center; background:#a31022; border-radius:4px; font-size:20px; padding:8px 0;}
+.inquiryButton a { text-decoration: none; color:#fff;}
+.crumbNav { text-align: right; margin: 25px 0; font-size: 11px; color: #a31022; }
+.crumbNav a { background: url(https://data.asiahighlights.com/image/arrow.png) no-repeat right 3px; padding-right: 10px; margin-right: 10px; color: #555; }
+.withH1 { display: block; background:#f1f1f1; margin-top:0 !important; padding-top:0 !important; border-top:2px solid #d9d9d9;}
+.withH1 h1 { margin:-10px 0 35px !important; border-bottom: none !important}
+.withH1 .crumbNav { margin-top:-15px !important;}
+

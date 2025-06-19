@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+body { background:#f1f1f1; font-family:'Open Sans', sans-serif!important;}
+/* CSS Document */
+sup { color:#a31022; font-size:105%; top:0px !important;}
+#formBanner { display: block;  margin-bottom:30px; background:url(/image/form-banner.jpg) no-repeat center; height:400px; position:relative}
+#LFformBanner { display: block;  margin-bottom:30px; background:url(https://data.asiahighlights.com/image/2485d4a0f923417eb47aeaf3.jpg) no-repeat center; height:400px; position:relative}
+#formBanner h1 { border-bottom: none; color:#fff; position:absolute; width:100%; top:50px; text-align:center; font-size:30px !important; font-family:'Open Sans', sans-serif!important; text-shadow:2px 2px 2px #666;}
+#LFformBanner h1 { border-bottom: none; color:#fff; position:absolute; width:100%; top:50px; text-align:center; font-size:30px !important; font-family:'Open Sans', sans-serif!important; text-shadow:2px 2px 2px #666;line-height:1.5em}
+.procedure { background:rgba(0,0,0,.5); display: block; padding:20px 0; position:absolute; left:0; bottom:0; width:100%; color:#fff;}
+.procedure .subTitle { display: block; font-size:18px; text-align:center; margin-bottom:30px;}
+.whiteBorder { background:#fff; display: block; height:1px; margin:36px -12px 0 -15px;}
+.procedure .listIcon { background:url(/pic/list-icon.png) no-repeat left 10px; display: block; padding:11px 0 11px 66px; background-size:55px 55px; margin-top:9px; font-size:14px;}
+.procedure .peopleIcon { background:url(/pic/people-icon.png) no-repeat left 10px; display: block; padding:11px 0 11px 66px;background-size:55px 55px; font-size:14px;}
+.procedure .emailIcon { background:url(/pic/email-icon.png) no-repeat left 10px; display: block; padding:11px 0 11px 66px;background-size:55px 55px; font-size:14px;}
+.procedure .handIcon { background:url(/pic/hands-icon.png) no-repeat left 10px; display: block; padding:11px 0 11px 66px;background-size:55px 55px; font-size:14px;}
+.twoBlanks{margin-left: -15px;margin-right: -15px}
+.formTrust { display: block; margin-left:20px;}
+.monkReview { background:url(/image/walking-monks.jpg) no-repeat right bottom; display: block; color:#fff; margin:50px 0; font-size:14px; padding:20px 30px 150px; border-radius:4px; background-size: 100%; line-height:22px;}
+.monkReview b { display: block; margin-top:15px; font-size:16px; font-weight: normal;}
+#inquiryBox { display: block; box-shadow:0 0 5px #999; border-radius:4px; margin:0 0 35px; padding:25px; background:#fff; margin-top:20px;}
+#inquiryBox h2 { font-size:24px; border-bottom:1px solid #d1d1d1; padding-bottom:20px; margin:0 0 20px;}
+#contactInfo { display: block; box-shadow:0 0 5px #999; border-radius:4px; margin:0 0 25px; padding:25px; background:#fff;}
+#contactInfo h2 { font-size:24px; border-bottom:1px solid #d1d1d1; padding-bottom:20px; margin:0 0 00px;}
+.labelTitle { display: block; font-size:16px; font-weight:400; color:#333; margin:30px 0 15px;}
+.labelTitle .whatsThis { color:#a31022; font-size:13px;}
+textarea { font-family:'Open Sans', sans-serif!important; font-size:14px; line-height:20px; padding:15px !important; border:1px solid #d1d1d1; background:#fff; width:96%; height:150px; border-radius:2px;}
+#contactInfo .subTitle { display: block; font-size:16px; font-weight:400; color:#333; margin:30px 0 15px;}
+#contactInfo input { width:100%; font-size:14px; font-family:'Open Sans', sans-serif!important; border-radius:2px!important; padding:8px 15px; color:#777 !important; background:#fff; border:1px solid #d1d1d1;}
+#Date_Start { width:100%; font-size:14px; font-family:'Open Sans', sans-serif!important; border-radius:2px!important; padding:8px 15px; color:#777 !important; background:url(/pic/calendar-icon-red.png) no-repeat 96% 7px #fff; border:1px solid #d1d1d1;}
+#inquiryBox label { font-weight: normal;}
+#inquiryBox .flexibleDate { display: block; font-size:14px; margin: 5px 0 0 -15px; font-size:14px; background:url(/pic/checkbox-icon.png) no-repeat left 5px; margin-bottom:10px; padding:5px 0 5px 30px;}
+#inquiryBox .checked {background: url(/pic/checked-icon.png) no-repeat left;}
+#inquiryBox select { width:100%; font-size:14px; font-family:'Open Sans', sans-serif!important; border-radius:2px!important; padding:2px 10px; cursor:pointer; appearance: none; -moz-appearance: none; -webkit-appearance: none; background: url(/pic/select-tag.png) no-repeat 96% center #fff; background-size: 18px 10px; color:#777 !important; border:1px solid #d1d1d1;}
+#inquiryBox select option { padding:5px 0 5px 10px;}
+#inquiryBox input[type="checkbox"] { vertical-align: middle;}
+#contactInfo select { width:100%; font-size:14px; font-family:'Open Sans', sans-serif!important; border-radius:2px!important; padding:2px 10px; cursor:pointer; appearance: none; -moz-appearance: none; -webkit-appearance: none; background: url(/pic/select-tag.png) no-repeat 96% center #fff; background-size: 18px 10px; color:#777 !important;border:1px solid #d1d1d1;height:38px}
+#contactInfo select option { padding:5px 0 5px 10px;}
+.submitBtn { display: block; margin:30px 0 100px; font-size:14px; line-height:22px;}
+.submitBtn .beginNow { background:#a31022; border-radius:4px; display: block; margin-bottom:15px;}
+.submitBtn .beginNow:hover { background:#800D1C; border-radius:4px; display: block; margin-bottom:15px;}
+.submitBtn .beginNow a { color:#fff; text-decoration: none; display: block; font-size:20px; padding:9px 0; text-align:center;}
+
+.submitBtn .beginNow .fa { font-size:170%; margin-left:10px; display:inline-block; vertical-align: middle; font-weight:300 !important;}
+.onlyCall { display: block; font-size:14px; color:#777; margin:75px 0 0 -20px;}
+.destinations li { display: block; float: left; width:24%; font-size:14px; background:url(/pic/checkbox-icon.png) no-repeat left; margin-bottom:10px; padding:5px 0 5px 35px; }
+.destinations li.checked { background:url(/pic/checked-icon.png) no-repeat left;}
+.hotelStyle li { display: block; float: left; width:32%; font-size:14px; background:url(/pic/checkbox-icon.png) no-repeat left; margin-bottom:10px; padding:5px 0 5px 35px; }
+.hotelStyle li:nth-child(2) { width:35% !important;}
+.hotelStyle { display: block; margin-bottom:25px; overflow: hidden;}
+.hotelStyle li.checked { background:url(/pic/checked-icon.png) no-repeat left;}
+.hotelStyle li em { display: block; font-style: normal; color:#999;}
+.interestedIn { display: block; margin-bottom:10px; font-size:14px;}
+@media(max-width:760px) {
+.destinations li {margin-left: 10px;width: 45%;padding:5px 0 5px 35px; }	
+.flexibleDate { margin-left:0 !important; margin-top:10px !important;}
+#inquiryBox select, #contactInfo select  { padding:10px 10px !important;}
+.onlyCall { margin:10px 0 0 0 !important;}
+.hotelStyle li { background-position: left 15px !important; width:100% !important; float: none !important;}
+.hotelStyle li:nth-child(2) { width:100% !important;}
+#formBanner { height:300px!important;}
+#LFformBanner{height:350px}
+}
+input:focus, select:focus, textarea:focus { border-color: #666 !important;}
+@media(min-width:1024px){.ticketSelection{display: none!important}}

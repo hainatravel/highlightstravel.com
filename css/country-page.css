@@ -1,0 +1,107 @@
+.crumbNav{position: absolute;color: #FFF;font-size: 13px;bottom: 10px;right:10px;text-shadow: 1px 1px 1px #333}
+.crumbNav a{color: #FFF;text-decoration: none;}
+.crumbNav a:hover{text-decoration: underline}
+.crumbNav i{padding: 0 10px 0 10px}
+.crumbSize{width: 1170px;position: relative;margin: 0 auto;}
+#banner{display: block;position: relative}
+#banner img{width: 100%; }
+#banner h1{position: absolute;font-size:60px;top: calc(50% - 30px);text-shadow: 5px 5px 5px #333;color: #FFF;border-bottom: none;height: 60px;left: calc(50% - 200px);width: 400px;text-align: center;letter-spacing:8px}
+h2{font-size: 30px;font-weight: 300;text-align: center;margin-bottom: 40px}
+.preface{font-size: 16px;line-height: 28px;padding-bottom: 60px;width: 65%;display: inline-block}
+.topTours{background: #f1f1f1;padding-top: 65px;padding-bottom: 65px}
+.tourSample{width: 100%;border-radius: 4px;margin-bottom: 25px}
+.tourSample p {font-size: 14px;margin-bottom: 10px}
+.tourSample .tourDays{margin-top: 10px;margin-bottom: 10px}
+.tourImage img{width: 100%;border-top-left-radius:4px;border-top-right-radius:4px;height: 231px}
+.tourImage{position: relative;}
+.tourTag{background: url(https://www.asiahighlights.com/image/tour-tag.png) no-repeat;color: #FFF;text-align: center;background-size: cover;width: 100px;position: absolute;top: 20px;left: -8px;height: 27px}
+.tourTitle{font-size: 20px;color: #333;font-weight: 300}
+.tourTitle a:hover{color: #a31022;}
+.tourTitle a{color: #333;text-decoration: none}
+.tourRoutes{font-size: 12px;color:#777;margin-top:10px;margin-bottom: 10px }
+.tourDays{font-size: 16px;color: #333;font-size: 17px}
+.tourWrapper{padding: 15px;background: #FFF;border-bottom-left-radius:4px;border-bottom-right-radius:4px;box-shadow: 0px 2px #ccc;min-height: 260px;position: relative;}
+.tourWrapper a{text-decoration: none}
+.tourPrice{color: #a31022;font-size:16px;padding-left:10px}
+.tourDetail{color: #a31022;background: #FFF;width: 180px;text-align: center;font-size: 16px;border: 2px solid #a31022;padding: 3px;border-radius: 4px;margin-bottom: 15px;text-decoration: none;position:absolute;left:calc(50% - 90px);bottom: 8px}
+.tourDetail:hover{background:#AE1819;color: #FFF }
+.ctaButton{color: #FFF;background: #AE1819;text-align: center;font-size: 18px;margin: 0 auto;padding: 8px 30px 8px 30px;border-radius: 6px;}
+.whyUsCta{width: 380px}
+.tmCta{width: 280px}
+.ctaButton:hover{border-radius: 10px;font-weight: bold}
+.viewMore{color: #a31022;font-size:24px;text-align:center;font-weight: 300;margin-top: 40px}
+.viewMore a{text-decoration: none;color: inherit}
+.viewMore a:hover{text-decoration: underline}
+i{padding-left: 20px}
+.countryPic img{width:95%;transform: rotate(-5deg);box-shadow: 2px 2px 5px #999;border-radius:4px;padding: 5px;border: 2px 2px 5px #999}
+.countryInfo{padding-top: 75px;padding-bottom: 75px}
+.infoText{margin-left: 50px;overflow: hidden;}
+.countryInfo li{padding-left:65px;margin-bottom:50px;padding-bottom:20px;min-height:50px;list-style:none}
+.timeZone{background: url(https://data.asiahighlights.com/image/country-page/time-zone-icon.png) no-repeat left top;background-size: 40px}
+.bestTime{background: url(https://data.asiahighlights.com/image/country-page/best-time-icon.png) no-repeat left top;background-size: 40px}
+.extension{background: url(https://data.asiahighlights.com/image/country-page/extension-icon.png) no-repeat left top;background-size: 40px}
+.currency{background: url(https://data.asiahighlights.com/image/country-page/currency-icon.png) no-repeat left top;background-size: 40px}
+.capital{background: url(https://data.asiahighlights.com/image/country-page/capital-icon.png) no-repeat left top;background-size: 40px}
+.infoTitle{font-size: 16px;font-weight: bolder}
+.infoText p{float: left;}
+.infoText h2{text-align: left;}
+.rightPic{margin-left: 15px}
+.whyUsMyan{background: url(https://data.asiahighlights.com/image/country-page/myanmar-AH.jpg) no-repeat;width: 100%;margin-bottom: 65px;color:black; }
+.crumbMask{background:-webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));background:-moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background: -ms-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));width: 100%;height: 40px;position: absolute;bottom: 0}
+.quotation{font-size: 14px; font-style: italic; margin-bottom: 10px}
+.whyList{margin-bottom: 60px;overflow: hidden;display: block;margin-top: 80px}
+.whyUsPart{padding: 65px 0 75px 0;width: 70%;margin:0 auto}
+.whyUsPart h2{font-size: 35px;color: #FFF;text-shadow: 1px 1px 1px #333}
+.sectionPreface{text-align: center;width: 90%;margin: 0 auto;font-size: 14px;margin-top: 30px;margin-bottom: 30px;line-height: 28px}
+.ahFeatures{border-radius: 4px;}
+.ahFeatures img{width: 100%;border-top-left-radius: 4px;border-top-right-radius: 4px;height: 150px}
+.featureTitle{color: #AE1819;font-size: 20px;font-style: italic;font-weight: 400}
+.featureText{background: #f1f1f1;padding:10px 10px 15px 10px;text-align: center;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;min-height: 160px}
+.featureText p{margin-bottom: 0;margin-top:5px;font-size:14px;line-height: 24px}
+.guideItems img{border-radius: 4px}
+.mask {width: 100%;height: 100%;background:#000;position: absolute;opacity: 0.3;border-radius: 4px}
+.mask:hover{background: none}
+.promoteArticle{background: #f1f1f1; width: 100%;border-top-right-radius: 4px;border-bottom-right-radius: 4px;display: block}
+.guideItems{margin-bottom: 12px;margin-left: -9px;margin-right: -9px;position: relative;}
+.guideItems h3 a{text-decoration: none;color: #FFF;}
+.guideLists{padding-left: 6px;padding-right: 6px}
+.guideText{ display: inline-block;width:50%;padding: 0px 12px 10px 12px}
+.guidePromote img{vertical-align: 0;float: left;border-top-left-radius: 4px;border-bottom-left-radius: 4px}
+.guidePromote{overflow: hidden;background: #f1f1f1;margin-left:-9px;margin-right:-9px;position: relative;border-radius: 4px}
+.innerText h3{font-size: 24px; padding-bottom:20px;font-weight: 300;line-height:32px}
+.innerText{padding: 10px;font-size: 14px;line-height: 1.7em}
+.introView{overflow: hidden;float: right;text-decoration: underline}
+.countryGuides{margin-bottom: 65px}
+.vnMap{background: url(https://data.asiahighlights.com/pic/vn-map-gray.png) no-repeat center;padding-top:150px}
+.vnMap:hover{background: url(https://data.asiahighlights.com/pic/vn-map.png) no-repeat center;}
+.articleView{color: #a31022;}
+.articleView a{text-decoration: none;color: #a31022}
+.articleView a:hover{text-decoration: underline}
+.innerText h3 a{text-decoration: none}
+.innerText h3 a:hover{color: #a31022}
+.guideText .articleView{margin-top: 20px;float: right;font-size: 16px}
+.guideItems h3{font-size: 26px;font-weight: 300;color: #FFF;height: 56px;text-align: center;line-height:28px;text-shadow: 5px 5px 5px #333;margin: 0}
+.guideTitle {position: absolute;top: calc(50% - 28px);width: 100%}
+.countryLink{display:block;float: left;width:20%;text-align:center;font-size:16px}
+.countryLink a{text-decoration: none;display: block}
+.cbMap{background: url(https://data.asiahighlights.com/pic/cb-map-gray.png) no-repeat center;padding-top:150px}
+.cbMap:hover{background:url(https://data.asiahighlights.com/pic/cb-map.png) center no-repeat}
+.laMap:hover{background:url(https://data.asiahighlights.com/pic/la-map.png) center no-repeat}
+.thMap{background: url(https://data.asiahighlights.com/pic/th-map-gray.png) no-repeat center;padding-top:150px}
+.thMap:hover{background:url(https://data.asiahighlights.com/pic/th-map.png) no-repeat center}
+.maMap{background: url(https://data.asiahighlights.com/pic/ma-map-gray.png) no-repeat center;padding-top:150px}
+.maMap:hover{background:url(https://data.asiahighlights.com/pic/ma-map.png) no-repeat center}
+.laMap{background: url(https://data.asiahighlights.com/pic/la-map-gray.png) no-repeat center;padding-top:150px}
+.tailorText{float: left;font-size: 16px;display: block;width: 60%;padding-top: 15px;line-height: 28px;}
+.tailorMade{margin-top: 20px;border-top: 1px solid #d1d1d1;padding: 30px 0;}
+.otherCountry{margin-bottom: 40px}
+.clear{clear: both}
+.buttonArea{width: 40%;display: inline-block}
+.buttonArea .ctaButton{margin: 20px 10px 0 80px;float: right}
+.ctaButton a{text-decoration: none;color: #FFF}
+.tpLogo{width: 30%;border-radius: 4px;display: inline-block;float: right;}
+.tpLogo img{width:35%}
+.taReviews{font-size: 12px;margin-top: 8px}
+.taReviews a:hover{color: #a31022}
+.topTours h2{margin-top: 65px}
+.tagContent{line-height: 27px;font-size: 14px}
