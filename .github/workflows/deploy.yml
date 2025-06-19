@@ -16,10 +16,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.US_FTP_SERVER }}
+        server: 47.251.4.31
         username: ${{ secrets.US_FTP_USER }}
         password: ${{ secrets.US_FTP_PASSWORD }}
-        port: ${{ secrets.US_FTP_PORT }}
+        port: 31219
         local-dir: ./
         server-dir: /origin-www.highlightstravel.com/
         # dry-run: true
