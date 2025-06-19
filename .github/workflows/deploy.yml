@@ -1,4 +1,4 @@
-name: 🚀 Deploy JH
+name: 🚀 Deploy highlightstravel.com
 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -7,7 +7,7 @@ on:
 
 jobs:
   gh-win-us-deploy:
-    name: 🎉 Deploy highlightstravel.com to US
+    name: 🎉 Deploy highlightstravel.com to USA-Windows
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
