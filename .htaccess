@@ -1737,11 +1737,6 @@ RewriteRule ^/customerfeedback/([\d\/]+)$ /customerfeedback/index.html?$1 [U,L]
 RewriteRule ^/customerfeedback/([\d\-]+)$ /customerfeedback/index.html?$1 [U,L]
 
 #orders
-RewriteRule ^/create-my-trip.htm$ /index.php/orders/tailormade/ [U,L]
-RewriteRule ^/tailor-make-your-trip$ /index.php/forms/tailormade_ppc/ [U,L]
-RewriteRule ^/tailor-make-your-trip-easy$ /index.php/forms/tailormade_ppc_easy/ [U,L]
-RewriteRule ^/tailor-make-your-south-asia-trip$ /index.php/forms/tailormade_ppc_india/ [U,L]
-RewriteRule ^/orders/triprequest.htm$ /index.php/forms/triprequest/ [U,L]
 RewriteRule ^/forms/(.*)$ /index.php/forms/$1/ [U,L]
 RewriteRule ^/orders/(.*)$ /index.php/orders/$1/ [U,L]
 RewriteRule ^/secureinfoconfirm/(.*)$  /secureinfo.php/thirdparty/order/$1 [U,L]
@@ -1759,8 +1754,3 @@ RewriteRule ^/weather/(.*)$ /index.php/weather/$1 [U,L]
 
 #ip_address
 RewriteRule ^/ip/$ /index.php/apps/ip2location/ [U,L]
-
-#ssl
-RewriteRule ^/\.well-known/(.*)$ /.well-known/$1.htm [U,L]
-
-RewriteRule ^/(vietnam|japan|thailand|india|myanmar)/tours/$ /index.php/information/detail/ [U,L]
