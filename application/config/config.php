@@ -17,7 +17,7 @@ if (!defined('BASEPATH'))
   | path to your installation.
   |
  */
-$config['base_url'] = 'https://www.asiahighlights.com';
+$config['base_url'] = 'https://www.highlightstravel.com';
 
 /*
   |--------------------------------------------------------------------------
@@ -361,13 +361,13 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '47.74.148.192,75.126.42.90,106.186.113.181,82.194.72.163,78.47.247.200,144.76.95.112,78.47.16.163,188.120.225.171,92.243.4.190,199.195.192.27,176.67.169.200,46.166.147.149,46.166.155.152,106.187.95.194,88.198.111.123,169.45.101.56,169.54.167.185';
 
 //设置站点信息
-$config['Site_Domain'] = 'Asia Highlights Travel';
+$config['Site_Domain'] = 'Highlights Travel';
 $config['Site_Code'] = "ah";
 $config['Site_ID'] = 141;
 $config['Site_LGC'] = 1;
 $config['Site_ServiceName'] = 'lissy';
 $config['Site_Department'] = 28;
-$config['Site_ServiceEmail'] = 'contact@asiahighlights.com';
+$config['Site_ServiceEmail'] = 'contact@highlightstravel.com';
 define('Site_Currency', 'RMB'); //AH网站数据库中就是美金报价，所以前台不需要转换价格，这里设置为人民币即可
 define('Site_Code', 'ah'); //AH网站数据库中就是美金报价，所以前台不需要转换价格，这里设置为人民币即可
 
