@@ -17,8 +17,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 47.251.4.31
-        username: ${{ secrets.US_FTP_USER }}
-        password: ${{ secrets.US_FTP_PASSWORD }}
+        username: deploybot
+        password: jBGD7nx!b!m77v!o
         port: 31219
         local-dir: ./
         server-dir: /origin-www.highlightstravel.com/
