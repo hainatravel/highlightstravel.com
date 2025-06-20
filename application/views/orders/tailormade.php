@@ -19,7 +19,6 @@
 
 	<!--@MAIN-CSS@-->
 	<!--@ADDON-CSS@-->
-
 	<script
 		src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6Lf828MhAAAAANNetijCXKwW5ARyhcJ-b1Hhslja"></script>
 	<script

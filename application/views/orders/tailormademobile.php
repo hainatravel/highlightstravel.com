@@ -15,7 +15,6 @@
 	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
 	<!--@MAIN-CSS@-->
 	<!--@ADDON-CSS@-->
-
 	<script
 		src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6Lf828MhAAAAANNetijCXKwW5ARyhcJ-b1Hhslja"></script>
 	<script src="https://data.asiahighlights.com/min/?f=/js/jquery-1.8.2.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
