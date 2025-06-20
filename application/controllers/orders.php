@@ -380,13 +380,7 @@ class Orders extends CI_Controller {
   }
 
   private function prevent_spam_order() {
-    $this->verifying_grecaptcha_token();
-    if ($this->input->get_post("email") == 'sample@email.tst' ||
-      false !== stripos($this->input->get_post("email"), "sample@email.tst")
-    ) {
-      log_message('error', "reject by Acunetix scan Detected. IP: " . $this->input->ip_address());
-      $this->fake_200();
-    }
+    // $this->verifying_grecaptcha_token();
 
     if (IS_GET) {
       $this->fake_200();
@@ -413,7 +407,7 @@ class Orders extends CI_Controller {
     //     $this->fake_200();
     // }
 
-    if (in_array(strstr($this->input->get_post("email"), "@"), array("@asiahighlights.com", "@hainatravel.com"))) {
+    if (in_array(strstr($this->input->get_post("email"), "@"), array("@hainatravel.com"))) {
       // 内部测试邮箱，不做 IP 限制。
     } else {
       if (false === $this->Orders_model->ip_limit($this->input->ip_address())) {
