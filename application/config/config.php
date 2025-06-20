@@ -366,6 +366,7 @@ $config['Site_Code'] = "HTravel";
 $config['Site_ID'] = 187;
 $config['Site_LGC'] = 1;
 $config['Site_Department'] = 28;
+$config['Site_ServiceName'] = 'Highlights Travel';
 $config['Site_ServiceEmail'] = 'contact@highlightstravel.com';
 define('Site_Currency', 'RMB'); //AH网站数据库中就是美金报价，所以前台不需要转换价格，这里设置为人民币即可
 define('Site_Code', 'HTravel');

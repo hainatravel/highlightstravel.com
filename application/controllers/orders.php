@@ -571,7 +571,7 @@ class Orders extends CI_Controller {
       $this->config->item('Site_ServiceEmail'),
       $email_data['full_name'],
       $email_data['email'],
-      "Asia highlights has receive your inquiry",
+      "Highlights Travel has receive your inquiry",
       $email_text
     );
   }
@@ -594,26 +594,26 @@ class Orders extends CI_Controller {
       'xiaohongshu' => 78023,
     );
 
-    $utm_source = get_cookie('__ah_utm_source');
+    $utm_source = get_cookie('__htravel_utm_source');
 
     if (!empty($utm_source) && array_key_exists($utm_source, $utm_source_map)) {
       $this->Orders_model->COLI_LineClass = $utm_source_map[$utm_source];
     }
 
-    $utm_campaign = get_cookie('__ah_utm_campaign');
+    $utm_campaign = get_cookie('__htravel_utm_campaign');
 
     if (!empty($utm_campaign)) {
       $this->Orders_model->COLI_LinkedMan = $utm_campaign;
     }
 
     // 关联订单后统一删除 utm 的 cookie
-    delete_cookie('__ah_utm_source', '.asiahighlights.com');
-    delete_cookie('__ah_utm_medium', '.asiahighlights.com');
-    delete_cookie('__ah_utm_campaign', '.asiahighlights.com');
+    delete_cookie('__htravel_utm_source', '.highlightstravel.com');
+    delete_cookie('__htravel_utm_medium', '.highlightstravel.com');
+    delete_cookie('__htravel_utm_campaign', '.highlightstravel.com');
   }
 
   // 测试地址：
-  // https://proxy-www.asiahighlights.com/orders/verifying_grecaptcha_token?__grecaptcha_token__=
+  // https://proxy-www.highlightstravel.com/orders/verifying_grecaptcha_token?__grecaptcha_token__=
   public function verifying_grecaptcha_token() {
     $grecaptcha_token = $this->input->get_post("__grecaptcha_token__");
     if (empty($grecaptcha_token)) {
@@ -650,7 +650,7 @@ class Orders extends CI_Controller {
 	  $req_url = 'https://p9axztuwd7x8a7.mycht.cn/dingtalk/dingtalkwork/SendMDMsgByDingRobotToGroup?groupid=cidFtzcIzNwNoiaGU9Q795CIg==&msgTitle='
 		  .urlencode('reCAPTCHA 错误')
 		  .'&msgText='
-		  .urlencode('HighlightsTravel 无法使用 reCAPTCHA 验证');
+		  .urlencode('HTravel 无法使用 reCAPTCHA 验证');
 
 	  curl_setopt($curl_session, CURLOPT_HEADER, false);
 	  curl_setopt($curl_session, CURLOPT_RETURNTRANSFER, true);
