@@ -6,7 +6,7 @@ echo '<div style="width:740px; display: block; background:#e8e8e8; padding:12px;
 echo '<div class="ahInfo" style="background:#fff; width:350px; display: block; float: left; border-right: 1px solid #d1d1d1; padding:35px 25px; height:395px; position:relative;">';
 echo '<img src="https://www.asiahighlights.com/pic/thankyou-title.png"/>';
 echo '<p style=" font-size:14px; line-height:22px; margin-bottom:10px;">One of our specialists will go through your travel plan 
-and contact you within 24 hours. </p>';
+and contact you within 24 hours.</p>';
 echo '<p style=" font-size:14px; line-height:22px; margin-bottom:10px;">Here is a general frame of your inquiry. Let us know if 
 it is incorrect or you need to make any changes.</p>';
 echo '<p style=" font-size:14px; line-height:22px; margin-bottom:10px;">Thank you once again for choosing Asia Highlights. </p>';
