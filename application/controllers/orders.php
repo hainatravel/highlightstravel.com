@@ -565,7 +565,7 @@ class Orders extends CI_Controller {
 
   // 发送订单自动回复邮件
   public function email_customer($email_data) {
-    $email_text = $this->load->view('ah/email/ah-auto-mail', $email_data, true);
+    $email_text = $this->load->view('email/auto-mail', $email_data, true);
     $this->Orders_model->SendMail(
       $this->config->item('Site_ServiceName'),
       $this->config->item('Site_ServiceEmail'),
