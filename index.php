@@ -2,12 +2,11 @@
 //每个网站都要定义一些常量，如站点code，小组等，没有这些变量，框架运行报错
 
 define('CONST_SITE_DOMAIN', 'www.highlightstravel.com'); //站点域名
-define('CONST_SITE_CODE', 'ah'); //站点code
-define('CONST_SITE_ID', 141); //站点SN
+define('CONST_SITE_CODE', 'HTravel'); //站点code
+define('CONST_SITE_ID', 187); //站点SN
 define('CONST_SITE_LGC', 1); //站点语种
 define('CONST_SITE_DEPARTMENT', 28); //DepartmentInfo表DEI_SN
 define('CONST_SITE_CURRENCY', 'RMB'); //货币
-define('CONST_SITE_SERVICENAME', 'lissy');
 define('CONST_SITE_SERVICEEMAIL', 'contact@highlightstravel.com');
 
 

@@ -3,14 +3,14 @@
 class Orders_model extends CI_Model {
     /*     * *********** 传统订单 *********** */
 
-    var $COLI_WebCode = 'CHT'; //订单来源站点代号
+    var $COLI_WebCode = 'HTravel'; //订单来源站点代号
     var $COLI_Servicetype = 'T'; //服务类型 T线路 4游船
     var $COLI_sourcetype = '32002'; //订单类型，楼下有一个表
     var $COLI_SenderIP = ''; //客人的IP地址
     var $COLI_Area = '2'; //市场区域 2欧美市场 9日本市场
     var $COLI_Currency = 'USD'; //结算货币 USD美元 RMB人民币 RUB卢布 EUR欧元
     var $COLI_CustomerType = '101'; //所属小组ID 楼下有个表
-    var $COLI_department = '1'; //所属小组SN 楼下有个表
+    var $COLI_department = '28'; //所属小组SN 楼下有个表
     var $COLI_OrderDetailText = ''; //订单预定信息，保存所有POST数据
     var $COLI_ID = ''; //订单号，根据$COLI_SN获取
     var $COLI_SN = ''; //订单表主键
