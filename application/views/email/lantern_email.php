@@ -1,6 +1,6 @@
 <?php
 echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">';
-echo '<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="robots" content="noindex,nofollow" /><title>Customers Email Review - China Highlights</title></head>';
+echo '<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="robots" content="noindex,nofollow" /><title>Customers Email Review - Highlights Travel</title></head>';
 echo '<body style="color: #333; margin: 20px 0px; padding: 0px; font-family: Verdana, Geneva, sans-serif; font-size: 12px;">';
 echo '<div style="width:740px; display: block; background:#e8e8e8; padding:12px; margin:25px auto 10px; overflow: hidden;">';
 echo '<div class="ahInfo" style="background:#fff; width:350px; display: block; float: left; border-right: 1px solid #d1d1d1; padding:35px 25px; height:395px; position:relative;">';
@@ -11,8 +11,8 @@ echo '<p style=" font-size:14px; line-height:22px; margin-bottom:10px;">Here is 
 it is incorrect or you need to make any changes.</p>';
 echo '<p style=" font-size:14px; line-height:22px; margin-bottom:10px;">Thank you once again for choosing Asia Highlights. </p>';
 echo '<p style=" font-size:14px; line-height:22px; margin-bottom:40px;">Kind Regards,</p>';
-echo '<img src="https://www.asiahighlights.com/pic/ah-team.png"/><div style="display:block;float: right;"><img src="https://data.asiahighlights.com/pic/logo-104.png"></div>';
-echo '<span style="display: block; margin-top:40px;"><a style="color:#555;" href="//www.asiahighlights.com">www.asiahighlights.com</a></div></span>';
+echo '<img src="https://www.asiahighlights.com/pic/ah-team.png"/><div style="display:block;float: right;"><img src="https://images.highlightstravel.com/allpicture/2025/06/914c5e88afa240ea8cc887eb497cc506_cut_226x118_241_1750256468.jpg"></div>';
+echo '<span style="display: block; margin-top:40px;"><a style="color:#555;" href="//www.highlightstravel.com">www.highlightstravel.com</a></div></span>';
 echo '<div class="customerInfo" style=" background:#f8f8f8; height:100%; display: block; width:309px; float: right; padding:15px; height:435px;"><ul style="margin-left:10px; padding-left:15px;">';
 echo '<li style="list-style: none; font-size:14px; line-height:18px; margin-bottom:10px; color:#555;font-size:16px; display: block; margin:10px 0 15px;">Your travel plans</li>';
 echo '<li style="margin-left: 0;list-style: none; font-size:14px; line-height:18px; margin-bottom:10px; color:#555"><strong style="margin-left: 0;font-weight: normal; color:#999;">Destination:</strong>Chiang Mai Yi Peng Festival</li>';
