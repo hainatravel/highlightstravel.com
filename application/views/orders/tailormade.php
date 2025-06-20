@@ -22,9 +22,9 @@
 	<script
 		src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6Lf828MhAAAAANNetijCXKwW5ARyhcJ-b1Hhslja"></script>
 	<script
-		src="https://data.asiahighlights.com/min/?f=/js/jquery-1.8.2.min.js,/js/bootstrap.min.js,/js/bootstrap-datepicker/bootstrap-datepicker.min.js,/js/typeahead.bundle.js,/js/jquery.form.min.js,/js/poshytip/jquery.poshytip.min.js,/js/jquery.sticky-kit.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
+		src="https://data.highlightstravel.com/min/?f=/js/jquery-1.8.2.min.js,/js/bootstrap.min.js,/js/bootstrap-datepicker/bootstrap-datepicker.min.js,/js/typeahead.bundle.js,/js/jquery.form.min.js,/js/poshytip/jquery.poshytip.min.js,/js/jquery.sticky-kit.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
 	<link
-		href="https://data.asiahighlights.com/min/?f=/js/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css"
+		href="https://data.highlightstravel.com/min/?f=/js/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css"
 		rel="stylesheet">
 	<script>
 		$(function () {

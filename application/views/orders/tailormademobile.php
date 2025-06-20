@@ -17,7 +17,7 @@
 	<!--@ADDON-CSS@-->
 	<script
 		src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6Lf828MhAAAAANNetijCXKwW5ARyhcJ-b1Hhslja"></script>
-	<script src="https://data.asiahighlights.com/min/?f=/js/jquery-1.8.2.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
+	<script src="https://data.highlightstravel.com/min/?f=/js/jquery-1.8.2.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
 	<style>
 		@charset "utf-8";
 
@@ -972,9 +972,7 @@ label.threestar:hover, input[type="radio"]:checked+label.threestar {background: 
 </head>
 
 <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56CMWN3" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+
 	<header class="headerbar" id="header">
 
 		<a href="/"> <img src="https://images.highlightstravel.com/allpicture/2025/06/914c5e88afa240ea8cc887eb497cc506_cut_226x118_241_1750256468.jpg" alt="Highlights Travel logo"
