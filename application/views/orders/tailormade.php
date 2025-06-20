@@ -23,9 +23,9 @@
 	<script
 		src="https://www.recaptcha.net/recaptcha/enterprise.js?render=6Lf828MhAAAAANNetijCXKwW5ARyhcJ-b1Hhslja"></script>
 	<script
-		src="https://data.highlightstravel.com/min/?f=/js/jquery-1.8.2.min.js,/js/bootstrap.min.js,/js/bootstrap-datepicker/bootstrap-datepicker.min.js,/js/typeahead.bundle.js,/js/jquery.form.min.js,/js/poshytip/jquery.poshytip.min.js,/js/jquery.sticky-kit.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
+		src="https://data.asiahighlights.com/min/?f=/js/jquery-1.8.2.min.js,/js/bootstrap.min.js,/js/bootstrap-datepicker/bootstrap-datepicker.min.js,/js/typeahead.bundle.js,/js/jquery.form.min.js,/js/poshytip/jquery.poshytip.min.js,/js/jquery.sticky-kit.min.js,/js/jquery.mailAutoComplete-4.0.min.js"></script>
 	<link
-		href="https://data.highlightstravel.com/min/?f=/js/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css"
+		href="https://data.asiahighlights.com/min/?f=/js/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css"
 		rel="stylesheet">
 	<script>
 		$(function () {
@@ -259,7 +259,7 @@ a.p_toplogo { float:left;}
 
 
 		.wholeWrap2 {
-			background: url(https://data.highlightstravel.com/image/forms/ah-tailormade-form-pc-bg-japan.jpg) no-repeat center fixed;
+			background: url(https://data.asiahighlights.com/image/forms/ah-tailormade-form-pc-bg-japan.jpg) no-repeat center fixed;
 			background-size: cover;
 			width: 100%;
 			display: inline-block;
@@ -518,7 +518,7 @@ a.p_toplogo { float:left;}
 		input.name {
 			display: block;
 			width: 34.7%;
-			background: url(https://data.highlightstravel.com/pic/input-name.png) no-repeat 10px #fff;
+			background: url(https://data.chinahighlights.com/pic/input-name.png) no-repeat 10px #fff;
 			padding-left: 45px;
 			float: left;
 			margin-right: 10px;
@@ -528,7 +528,7 @@ a.p_toplogo { float:left;}
 			display: block;
 			width: 44%;
 			margin-bottom: 10px;
-			background: url(https://data.highlightstravel.com/pic/input-email.png) no-repeat 10px #fff;
+			background: url(https://data.chinahighlights.com/pic/input-email.png) no-repeat 10px #fff;
 			padding-left: 45px;
 		}
 
@@ -537,7 +537,7 @@ a.p_toplogo { float:left;}
 			width: 44%;
 			display: block;
 			margin-top: 15px;
-			background: url(https://data.highlightstravel.com/image/form/gh-bottom-form-phone-bg.png) no-repeat 10px #fff;
+			background: url(https://data.globalhighlights.com/image/form/gh-bottom-form-phone-bg.png) no-repeat 10px #fff;
 			background-size: 25px;
 			padding-left: 45px;
 		}
@@ -718,7 +718,7 @@ a.p_toplogo { float:left;}
 			border: 1px solid #d1d1d1;
 			height: 27px;
 			margin-bottom: 10px;
-			background: url(https://data.highlightstravel.com/pic/top10/tour-calendar.png) no-repeat 15px;
+			background: url(https://data.chinahighlights.com/pic/top10/tour-calendar.png) no-repeat 15px;
 			width:250px;
 		}
 
@@ -804,7 +804,7 @@ a.p_toplogo { float:left;}
 		}
 
 		.bottom_why_us {
-			background: url(https://data.highlightstravel.com/image/about/ah-bottom-why-us-bg-pc.jpg) center #565656;
+			background: url(https://data.asiahighlights.com/image/about/ah-bottom-why-us-bg-pc.jpg) center #565656;
 			background-size: cover;
     height: 500px;
     padding-top: 25px;
@@ -949,7 +949,7 @@ a.p_toplogo { float:left;}
 		}
 
 		label.solo {
-			background: url(https://data.highlightstravel.com/image/forms/solo-normal.png) no-repeat 0 10px;
+			background: url(https://data.asiahighlights.com/image/forms/solo-normal.png) no-repeat 0 10px;
 			background-size: 47px;
 		}
 
@@ -960,7 +960,7 @@ a.p_toplogo { float:left;}
 		}
 
 		label.couple {
-			background: url(https://data.highlightstravel.com/image/forms/couple-normal.png) no-repeat 0 10px;
+			background: url(https://data.asiahighlights.com/image/forms/couple-normal.png) no-repeat 0 10px;
 			background-size: 50px;
 		}
 
@@ -971,7 +971,7 @@ a.p_toplogo { float:left;}
 		}
 
 		label.family {
-			background: url(https://data.highlightstravel.com/image/forms/family-normal.png) no-repeat 5px 10px;
+			background: url(https://data.asiahighlights.com/image/forms/family-normal.png) no-repeat 5px 10px;
 			background-size: 50px;
 		}
 
@@ -982,7 +982,7 @@ a.p_toplogo { float:left;}
 		}
 
 		label.group {
-			background: url(https://data.highlightstravel.com/image/forms/group-normal.png) no-repeat 5px 10px;
+			background: url(https://data.asiahighlights.com/image/forms/group-normal.png) no-repeat 5px 10px;
 			background-size: 50px;
 		}
 
@@ -1039,7 +1039,7 @@ a.p_toplogo { float:left;}
     line-height: 21px;
     font-style: italic;
     padding: 30px 0 0 35px;
-    background: url(https://data.highlightstravel.com/image/tour/asia/china-tours-feedback-bg-left.png) no-repeat 0px 30px;
+    background: url(https://data.asiahighlights.com/image/tour/asia/china-tours-feedback-bg-left.png) no-repeat 0px 30px;
     background-size: 30px;
     color: #fff;
 }
@@ -1106,7 +1106,7 @@ font-style: italic;
 ">* means required.</p>
 			<div id="inquiryBox" style="position: relative;">
 				<img alt="Highlights Travel's Trust Pilot rating"
-					src="https://data.highlightstravel.com/image/forms/ah-tm-form-tp-rating.png" style="position: absolute;
+					src="https://data.asiahighlights.com/image/forms/ah-tm-form-tp-rating.png" style="position: absolute;
 width: 115px;
 top: 0px;
 right: 5px;">
@@ -1967,7 +1967,7 @@ font-style: italic; color:#202020;">(Optional) This is a big trip for:</p>
 					<tr>
 					  <td>
 						<div class="feedback_logo">
-							<img alt="Tour Review" class="img-responsive" src="https://data.highlightstravel.com/image/forms/ah-tm-form-tp-rating-mobile.png" style="width: 150px; display: block; margin: 10px auto 0px; " ></div>
+							<img alt="Tour Review" class="img-responsive" src="https://data.asiahighlights.com/image/forms/ah-tm-form-tp-rating-mobile.png" style="width: 150px; display: block; margin: 10px auto 0px; " ></div>
 					  </td>
 					   
 							  
@@ -2087,7 +2087,7 @@ font-style: italic; color:#202020;">(Optional) This is a big trip for:</p>
                     <div class="bottomaboutus">
                         <img src="https://images.highlightstravel.com/allpicture/2025/04/197e4044551e42d990538e9b8c5becb7_cut_302x191_241_1744119431.png" loader="lazy" originalsrc="https://images.highlightstravel.com/allpicture/2025/04/197e4044551e42d990538e9b8c5becb7_cut_302x191_241_1744119431.png" width="170" height="121" style="float: left; margin-right: 10px; margin-bottom: 10px; width: 170px; height: 121px; opacity: 1; transition: opacity 0.5s ease-in-out 0s;" alt="Highlights Travel logo">
                         <div class="aboutusinfo">
-                            <img src="https://data.highlightstravel.com/pic/trustpilot-new-icon.png" loader="lazy" originalsrc="https://data.highlightstravel.com/pic/trustpilot-new-icon.png" style="display: block; margin-bottom: 10px; opacity: 1; transition: opacity 0.5s ease-in-out 0s;" width="104" height="20" alt="tour rating">
+						<img src="https://data.asiahighlights.com/pic/trustpilot-new-icon.png" loader="lazy" originalsrc="https://data.asiahighlights.com/pic/trustpilot-new-icon.png" style="display: block; margin-bottom: 10px; opacity: 1; transition: opacity 0.5s ease-in-out 0s;" width="104" height="20" alt="tour rating">
                             Rated 4.9 out of 5 | 98.8% Excellence<br>
                             China Highlights International<br> Travel Service Co., LTD
                         </div>
