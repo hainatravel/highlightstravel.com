@@ -1,14 +1,14 @@
 <?php
 //每个网站都要定义一些常量，如站点code，小组等，没有这些变量，框架运行报错
 
-define('CONST_SITE_DOMAIN', 'www.asiahighlights.com'); //站点域名
+define('CONST_SITE_DOMAIN', 'www.highlightstravel.com'); //站点域名
 define('CONST_SITE_CODE', 'ah'); //站点code
 define('CONST_SITE_ID', 141); //站点SN
 define('CONST_SITE_LGC', 1); //站点语种
-define('CONST_SITE_DEPARTMENT', 28); //DepartmentInfo表DEI_SN  
+define('CONST_SITE_DEPARTMENT', 28); //DepartmentInfo表DEI_SN
 define('CONST_SITE_CURRENCY', 'RMB'); //货币
 define('CONST_SITE_SERVICENAME', 'lissy');
-define('CONST_SITE_SERVICEEMAIL', 'contact@asiahighlights.com');
+define('CONST_SITE_SERVICEEMAIL', 'contact@highlightstravel.com');
 
 
 
@@ -47,7 +47,7 @@ if (defined('ENVIRONMENT'))
 		case 'development':
 			error_reporting(E_ALL);
 		break;
-	
+
 		case 'testing':
 		case 'production':
 			error_reporting(0);
@@ -84,7 +84,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	
+
 
 	$application_folder = 'application';
 
