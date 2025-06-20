@@ -320,10 +320,10 @@ video,
         display: block;}
 /*brand*/
 .brand_ch_bg, .brand_ah_bg, .brand_gh_bg, .brand_jh_bg, .brand_gh_bg {color:#fff; background-size: cover !important; text-shadow: 1px 1px 1px #202020; position:relative;}
-.brand_ch_bg {background: url(https://images.asiahighlights.com/allpicture/2014/08/5ab3eb251de24bcf974585ae_cut_2560x800_241.jpg) no-repeat;  }
-.brand_ah_bg {background: url(https://images.asiahighlights.com/allpicture/2024/03/70f4046b27864101ad9093e6fb372288_cut_2560x800_241.jpg) no-repeat; }
-.brand_gh_bg {background: url(https://images.asiahighlights.com/allpicture/2020/03/e37ed0d260214c7cb84eb120_cut_2560x800_241.jpg) no-repeat; }
-.brand_jh_bg {background: url(https://images.asiahighlights.com/allpicture/2024/05/488ef007163648488a5f9cc66492ab6b_cut_2560x800_241_1744020490.jpg) no-repeat;}
+.brand_ch_bg {background: url(https://images.highlightstravel.com/allpicture/2014/08/5ab3eb251de24bcf974585ae_cut_2560x800_241.jpg) no-repeat;  }
+.brand_ah_bg {background: url(https://images.highlightstravel.com/allpicture/2024/03/70f4046b27864101ad9093e6fb372288_cut_2560x800_241.jpg) no-repeat; }
+.brand_gh_bg {background: url(https://images.highlightstravel.com/allpicture/2020/03/e37ed0d260214c7cb84eb120_cut_2560x800_241.jpg) no-repeat; }
+.brand_jh_bg {background: url(https://images.highlightstravel.com/allpicture/2024/05/488ef007163648488a5f9cc66492ab6b_cut_2560x800_241_1744020490.jpg) no-repeat;}
 .brand_content { background: rgba(0, 0, 0, 0.4);padding: 70px 0 50px 0;display: flex; }
 .brand_logo {background: #fff;
     border-radius: 50%;
@@ -796,7 +796,7 @@ transform: rotate(135deg);}
     text-decoration: none;
 }
 .bottom_why_us {
-    background: url(https://data.asiahighlights.com/image/about/ah-bottom-why-us-bg-pc.jpg) center #565656;
+    background: url(https://data.highlightstravel.com/image/about/ah-bottom-why-us-bg-pc.jpg) center #565656;
     background-size: cover;
     height: 550px;
     padding-top: 25px;
@@ -967,7 +967,7 @@ ul.tourhighlights li {
     line-height: 1.3rem;
     font-style: italic;
     padding: 30px 0 0 35px;
-    background: url(https://data.asiahighlights.com/image/tour/asia/china-tours-feedback-bg-left.png) no-repeat 5px 25px;
+    background: url(https://data.highlightstravel.com/image/tour/asia/china-tours-feedback-bg-left.png) no-repeat 5px 25px;
     background-size: 25px;
 }
 
@@ -1174,7 +1174,7 @@ ul.tour_tags li strong {
 }
 
 .expert_content ul li.expert_why {
-    background: url(https://data.asiahighlights.com/image/forms/proposal-letter-special-requests-list-bg.png) no-repeat left;
+    background: url(https://data.highlightstravel.com/image/forms/proposal-letter-special-requests-list-bg.png) no-repeat left;
     list-style: none;
     padding-left: 35px;
     margin-bottom: 5px;
@@ -1185,7 +1185,7 @@ ul.tour_tags li strong {
 }
 
 .expert_content ul li.expert_whatsapp {
-    background: url(https://data.asiahighlights.com/image/forms/proposal-letter-whatsapp.jpg) no-repeat;
+    background: url(https://data.highlightstravel.com/image/forms/proposal-letter-whatsapp.jpg) no-repeat;
     list-style: none;
     padding-left: 35px;
     margin-top: 8px;
@@ -1287,7 +1287,7 @@ input {
 }
 
 input.FullName {
-    background: url(https://data.chinahighlights.com/pic/input-name.png) no-repeat 15px #fff;
+    background: url(https://images.highlightstravel.com/allpicture/2025/04/60cecacf79aa4e1b810b66bf357c8c83_cut_25x25_241_1744190065.png) no-repeat 15px #fff;
     padding-left: 45px;
     width: 40%;
     margin-inline-end: 10px;
@@ -2048,7 +2048,7 @@ img.tour_list_map {
 
 /*pc style begin */
 .newsletter_form {
-    background: url(https://data.asiahighlights.com/image/forms/ah-bottom-newsletter-bg-japan.jpg) no-repeat;
+    background: url(https://data.highlightstravel.com/image/forms/ah-bottom-newsletter-bg-japan.jpg) no-repeat;
     background-size: cover;
     color: #fff;
     text-shadow: 1px 1px 1px #202020;
@@ -2481,7 +2481,7 @@ ul.ah_list li a {
     .bottomlogo {
         font-size: 1rem;
         height: 53px;
-        background: url(https://data.chinahighlights.com/image/asia/asia-highlights-bottom-logo.png) no-repeat 10px 0px #1e1e1e;
+        background: url(https://images.japanhighlights.com/allpicture/2025/04/197e4044551e42d990538e9b8c5becb7_cut_302x191_241_1744119431.png) no-repeat 10px 0px #1e1e1e;
         padding-left: 150px;
         padding-top: 18px;
         color: #fff;
@@ -2919,7 +2919,7 @@ ul.ah_list li a {
     }
 .infoimage { margin: 0 15px 15px 15px;}
     .newsletter_form {
-        background: url(https://data.asiahighlights.com/image/forms/ah-bottom-newsletter-bg-japan-mobile.jpg) right;
+        background: url(https://data.highlightstravel.com/image/forms/ah-bottom-newsletter-bg-japan-mobile.jpg) right;
         background-size: cover;
     }
 
@@ -3142,7 +3142,7 @@ ul.ah_list li a {
     .bottomlogo {
         font-size: 1rem;
         height: 53px;
-        background: url(https://data.chinahighlights.com/image/asia/asia-highlights-bottom-logo.png) no-repeat 10px 0px #1e1e1e;
+        background: url(https://images.highlightstravel.com/allpicture/2025/04/197e4044551e42d990538e9b8c5becb7_cut_302x191_241_1744119431.png) no-repeat 10px 0px #1e1e1e;
         padding-left: 150px;
         padding-top: 18px;
         color: #fff;
@@ -3478,10 +3478,10 @@ ul.ah_list li a {
     font-size: 1.06rem;
 }
 /*brand*/
-.brand_ch_bg {background: url(https://images.asiahighlights.com/allpicture/2014/08/5ab3eb251de24bcf974585ae_cut_600x800_241.jpg) no-repeat center; background-size: cover;}
-.brand_ah_bg {background: url(https://images.asiahighlights.com/allpicture/2024/03/70f4046b27864101ad9093e6fb372288_cut_600x800_241.jpg) no-repeat center;     background-size: cover;}
-.brand_gh_bg {background: url(https://images.asiahighlights.com/allpicture/2020/03/e37ed0d260214c7cb84eb120_cut_600x800_241.jpg) no-repeat center; background-size: cover;}
-.brand_jh_bg {background: url(https://images.asiahighlights.com/allpicture/2024/05/488ef007163648488a5f9cc66492ab6b_cut_600x800_241_1744020418.jpg) no-repeat center; background-size: cover;}
+.brand_ch_bg {background: url(https://images.highlightstravel.com/allpicture/2014/08/5ab3eb251de24bcf974585ae_cut_600x800_241.jpg) no-repeat center; background-size: cover;}
+.brand_ah_bg {background: url(https://images.highlightstravel.com/allpicture/2024/03/70f4046b27864101ad9093e6fb372288_cut_600x800_241.jpg) no-repeat center;     background-size: cover;}
+.brand_gh_bg {background: url(https://images.highlightstravel.com/allpicture/2020/03/e37ed0d260214c7cb84eb120_cut_600x800_241.jpg) no-repeat center; background-size: cover;}
+.brand_jh_bg {background: url(https://images.highlightstravel.com/allpicture/2024/05/488ef007163648488a5f9cc66492ab6b_cut_600x800_241_1744020418.jpg) no-repeat center; background-size: cover;}
 .brand_logo { margin: 0 auto; float: none;}
 .expeditions {
     width: calc(100% - 30px);
